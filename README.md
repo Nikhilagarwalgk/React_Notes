@@ -178,20 +178,69 @@ That’s it. It’s very simple, we can use the useEffect Hook to perform side e
 # Third Day
 
 1. Revise prevoius lesson
-2. What are bundlers- vite, parcel, webpack-->?
+2. What are bundlers- vite, parcel, webpack?
    -> React uses different bundlers like, webpack, browserfy, rollup and Parcel.
    Bundler does a lot of things to optimize the react code 1. Code Splitting 2. React.lazy
 
-3. find the difference btw them?
-   4.what is npm and yarn?
-   5.npm doesnt statnd for node package manager(see doc)?
+   A bundler is a tool that puts together all your JavaScript code and its dependencies and throws a new JavaScript output file with everything merged, ready for the web, commonly known as the bundle file.
 
-6.how 'npm inti' works?
--> Its created a package.json file for the project.
+- These bundlers can work with other types of files as well apart from JavaScript, but they need a little help to perform their bundles. We'll talk about this more in depth in each of the examples below.
+
+- /dist will be the folder created after the bundle process and will contain all the bundled files. The bundled file for the styles is optional because we can choose either to inject the styles directly in the HTML or generate a new transpiled file containing the styles.
+
+- /src is the folder containing the entry point from which the bundler will start the bundle process.
+
+- /styles is the folder containing the original styles file, before the bundle.
+
+- index.html is the file containing what we'll see in the browser.
+
+- package.json is the file where all the dependencies, scripts and some configurations are stored.
+
+- .config.js is the file where all the config for the bundler is defined. This file is optional for every bundler in this list, but highly recommended. \* will be replaced accordingly by the name of the bundler.
+
+# Feature of Parcel during development:-
+
+1. parcel uses Hot reloading using the Hot Module Replacement (HMR).HMR improves the development experience by updating modules in the browser at runtime without needing a whole page refresh. This means that application state can be retained as you change small things in your code.
+
+In simple, it automatically loads application when we save the changes in VS code.
+
+- Extra :- If you’re not using a framework, you can opt into HMR using the module.hot API. This will prevent the page from being reloaded, and instead apply the update in-place. module.hot is only available in development, so you'll need to check that it exists before using it.
+
+2. Lazy mode
+3. Caching
+4. HTTPS - We can use https in development server using command, "parcel src/index.html --https"
+5. API proxy
+6. File watcher - Using this watcher Parcel watches every file in your project root (including all node_modules). Based on events and metadata from these files, Parcel determines which files need to be rebuilt. (Written in C++)
+7. Auto install - When you use a language or plugin that isn’t included by default, Parcel will automatically install the necessary dependencies into your project for you. For example, if you include a .sass file, Parcel will install the @parcel/transformer-sass plugin. When this happens, you'll see a message in the terminal, and the new dependency will be added to the devDependencies in your package.json.
+
+# Code Splitting
+
+Parcel supports zero configuration code splitting out of the box. This allows you to split your application code into separate bundles which can be loaded on demand, resulting in smaller initial bundle sizes and faster load times.
+
+1. Tree shaking :- When Parcel can determine which exports of a dynamically imported module you use, it will tree shake the unused exports from that module. This works with static property accesses or destructuring, with either await or Promise .then syntax.
+
+2. Shared bundles:- When multiple parts of your application depend on the same common modules, they are automatically deduplicated into a separate bundle. This allows commonly used dependencies to be loaded in parallel with your application code and cached separately by the browser.
+
+<------------------------------------------------------------------------------------------------------------> 3. find the difference btw them?
+4.what is npm and yarn?
+5.npm doesnt statnd for node package manager(see doc)?
+
+6. how 'npm inti' works?
+   -> Its created a package.json file for the project.
 
 Try:- npm init -y, what it does?
 
-7. Useing 'parcel' webpack?
+7. Useing 'parcel' or 'webpack'?
+   -> Advanatge of using Webpack:-
+1. It helps to use different javascript files without having tension that will load first.
+1. It makes code shorter.
+1. It helps in converting many files other than javascript into modules.
+1. It compiles different javascript module.
+
+- having all js bundled together into one file - which gives us a better performance on production deployment.
+- simpler imports of npm dependencies. The bundler-free approach works but feels a bit hacky and it's more hassle to maintain.
+- build-in code optimization applied automatically by webpack
+- it opens doors for many futures improvements - transpiling code so we can use new language features while supporting older browsers; including styles directly from the app or moving our code base to typescript.
 
 8. if we only want to use parcel during development not production?
    ->npm install parcel (production, when we want it globally)
@@ -252,7 +301,7 @@ dependencies -- Its present globally(development + production)
     ->1. npm init
     Ask certain questions and create package.json file
 20. npm install -D parcel
-    After running this command the, we get package.lock json file.
+    After running this command the, we get package.lock.json file.
     As any command that install package will create a package.lock.json file for storing data of that package.
     Here "-D" means that this package is used for development purpose.
 
@@ -307,7 +356,7 @@ Note:- IMAGE are heavy to load on prod
 30. ".dist" stores the minified files. Search about it.?
     PARCEL will create the minified file for js, css and keep it in .dist folder
 
-31. We should put .parcel-cahe in git ignore?why? what things to put in git-ignore?
+31. We should put .parcel-cache in git ignore?why? what things to put in git-ignore?
     -> Anything that is auto-generated in server will be put in git ignore.
 
 32. why is React fast?
@@ -328,8 +377,9 @@ https://browserslist.dev/?q=bGFzdCAyIHZlcnNpb25z
 
 34. Differ btw map and forEach?
     -> 1. The map() method returns a new array, whereas the forEach() method does not return a new array.
-35. The map() method is used to transform the elements of an array, whereas the forEach() method is used to loop through the elements of an array.
-36. map has item, index, array in parameter, where array is the whole array
+
+- The map() method is used to transform the elements of an array, whereas the forEach() method is used to loop through the elements of an array.
+- map has item, index, array in parameter, where array is the whole array
 
    <!--
     eg:- 
@@ -359,7 +409,7 @@ etc read it.
 
 READ About WEBPACK. (Add it in resume)
 
-1. If we want to start the project then ,
+1. If we want to start the project then,
    npx parcel index.html
 
 To create new command:-
@@ -376,7 +426,7 @@ in package.json in script add:-
 then, npx build
 
 2. npx - Only execute a package
-   npm- Download a package
+   npm - Download a package
    So, if want to execute a pakage or a script from package.json through npm then,
    npm run \_\_\_ is used.
    so,
@@ -393,13 +443,16 @@ npm run start === npm start
 
 "key" are unique for every data.
 
-5. Read about "Reconcialition" from react doc.
-   Diffing Algoriythms:-
+5. Read about "Reconciliation" from react doc.
+   ->The concept of virtual DOM and real DOM, while updating the UI is called as Reconciliation.
+
+- Diffing Algoriythms:-When diffing two trees, React first compares the two root elements. The behavior is different depending on the types of the root elements.
+  For more details:- https://reactjs.org/docs/reconciliation.html
 
 6. what is re-render or render?
    ->updating something in DOM
 
-7.React.createElement gives us an Object, and that object is converted into html(DOM)
+7. React.createElement gives us an Object, and that object is converted into html(DOM)
 
 8. Is JSX == "html inside Javascript" => No
    eg:- (JSX Expression OR React Element)
@@ -411,11 +464,56 @@ const heading = <h1 id="title" key="h2">Namaste react</h1>
 
 JSX is a html like syntax but its not html
 
+## what is JSX?
+
+-> eg :- const element = <h1>Hello, world!</h1>;
+JSX produces React “elements”. We will explore rendering them to the DOM.
+
+## Why JSX?
+
+1. Embedding Expressions in JSX -> In the example below, we declare a variable called name and then use it inside JSX by wrapping it in curly braces.In the example below, we declare a variable called name and then use it inside JSX by wrapping it in curly braces.
+
+2. JSX is an Expression Too -> After compilation, JSX expressions become regular JavaScript function calls and evaluate to JavaScript objects.
+
+This means that you can use JSX inside of if statements and for loops, assign it to variables, accept it as arguments, and return it from functions:eg:-
+
+function getGreeting(user) {
+if (user) {
+return <h1>Hello, {formatName(user)}!</h1>;
+}
+return <h1>Hello, Stranger.</h1>;
+}
+
+3. Specifying Attributes with JSX -> You may use quotes to specify string literals as attributes.
+   eg :- const element = <a href="https://www.reactjs.org"> link </a>;
+
+4. Specifying Children with JSX -> If a tag is empty, you may close it immediately with />, like XML.
+
+const element = <img src={user.avatarUrl} />;
+JSX tags may contain children:
+
+const element = (
+
+  <div>
+    <h1>Hello!</h1>
+    <h2>Good to see you here.</h2>
+  </div>
+);
+
+# Most Important Usage
+
+5. JSX Prevents Injection Attacks -> By default, React DOM escapes any values embedded in JSX before rendering them. Thus it ensures that you can never inject anything that’s not explicitly written in your application. Everything is converted to a string before being rendered. This helps prevent XSS (cross-site-scripting) attacks. As all the JS attack code is converted into normal string, so the attack doesn't works.
+
+6. JSX Represents Objects -> Babel compiles JSX down to React.createElement() calls.
+
+# <------------------------------------------------------------------------------------------------------------>
+
 9. React keep track with "key", html with "id" they are diiferenet.
 
 10. what is a difference between html and JSX?
 
 11. Read about babel, its a library in itself.
+    -> Babel is a JavaScript compiler, that converts the JSX into the React.Element
 
 12. JSX is understand by babel in react application.
 
@@ -428,6 +526,7 @@ JSX is a html like syntax but its not html
     Readability
     syntax
     maintainance
+    Read Above
 
 16. There one more package.lock.json inside node_modules, to maintain version of files or libraries in node_module
     Here, we find babel library
@@ -492,7 +591,7 @@ return(
 
 bcz functional component are also a function at the end of the day.
 
-21. We can write any piece of javascript code in JSX using ]arenthesis {}.
+21. We can write any piece of javascript code in JSX using parenthesis {}.
     console.log also inside {}.
 
 22. If we write any data that come from an api that has XXS (hacked ) in JSX eg:- inside {}, then it make sure that its secure.
@@ -502,3 +601,25 @@ bcz functional component are also a function at the end of the day.
 23. Using one component inside another component is called componenet composition.
 
 24. Parcel uses Babel, babel converts the JSX into HTML in DOM
+
+<!-- TCS -->
+
+coding on number
+
+1. All hooks
+2. Box model, css selector
+3. what are fragment
+4. Css - grid box, html- meta tag
+5. What is Higher Order Component? Have you used any in your project?
+   How do you Handle API calls on your React App?
+   How do you chain multiple API calls that is depending on the previous request?
+   How will you optimize a React Application?
+   What is a Pure Component and how will you do the same on functional components?
+   Explain controlled and uncontrolled components?
+   Redux Questions on Actions, reducers, and state
+   How to avoid mutating an array when performing an operation
+   Explain this keyword with arrow function and normal function
+   What is event bubbling?
+   What ES6 features you have used?
+   What is the difference between map, filter, and foreach?
+   Deep copy vs Shallow copy

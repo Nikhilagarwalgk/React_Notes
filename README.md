@@ -394,7 +394,7 @@ https://browserslist.dev/?q=bGFzdCAyIHZlcnNpb25z
 
 36. what are interceptor in axios?
 
-## FOURTH DAY
+## Laying the foundation - FOURTH DAY
 
 git init - create a file as .git-ignore
 
@@ -602,6 +602,8 @@ bcz functional component are also a function at the end of the day.
 
 24. Parcel uses Babel, babel converts the JSX into HTML in DOM
 
+25. .babelrc file -> has configuration for the babel
+
 <!-- TCS -->
 
 coding on number
@@ -623,3 +625,31 @@ coding on number
    What ES6 features you have used?
    What is the difference between map, filter, and foreach?
    Deep copy vs Shallow copy
+
+# DO the assignment of Fourth Video
+
+1. DO - npx create react app
+   -> See whats their in folder and understand them
+
+2. Command need to initialise npm -> npm init
+
+# Talk is chep, show me the code! - Five
+
+1. JOIN THE discord community
+
+2. JSX is converted into ReactElement, by Babel
+3. Functional Component are just a normal function
+4. variabel starting with small and component name with capital letter
+5. Component is JSX can be call as a normal function as well,
+<Title /> - self closing tag
+or {Title()} or <Title></Title>
+
+6. Any calculation can be done in JSX inside {}
+7. How to write commet in jSX?
+   -> Inside JSX
+   {
+   <!-- Here comment can be written -->
+   }
+8. JSx is not manadatory for React
+
+# Install good notes application in laptop

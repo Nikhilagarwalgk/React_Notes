@@ -653,3 +653,211 @@ or {Title()} or <Title></Title>
 8. JSx is not manadatory for React
 
 # Install good notes application in laptop
+
+<!-- TODO :  -->
+
+1.  why we use axios, when we have fetch?
+2.  why we have semantic, cant we write our header in div tag, why header tag is there?
+    -> Semantics makes the code better for the code, as the tech ot non-tech person can understand the data with the semantics name.
+    It help in improving the SEO(Search Engine Optimization), as the web bot can understand the semantic elements.
+    This refers to the way in which search engines such as Google interpret the content of your site and it can affect where your site will appear in search results. This means that neglecting semantic HTML could have a negative effect on how many users will find and interact with the site.
+
+- Code readability and maintainability
+
+\*The semantics of an entity describes what its purpose is. By using semantic HTML elements we are able to provide meaning to the structure of our code. eg:- header, footer, li, ui, etc
+
+NOTE:- Always remember that your code will not work, so error handling should be done every where.
+
+*If adding image, then if image is not shown - add alternate text
+*If api calling,and Api is failed - do error handling
+\*If making component, then component is not working so add error boundaries
+
+Question on API call:-
+
+1. How data is transfered in JSON? what is JSON?
+2. what is request waterfall?
+
+<--------------------------------------------------------->
+
+3. why JSX have only one parent element?
+   -> This is so, Bcoz a component is a function at the end of the day, as function return data or value , component also return JSX elements.
+   Now, according to basic of a function, a function cannot return multiple value
+   eg:- function returnSelf(a, b) {
+   return (
+   a
+   b
+   )
+   }
+   This is invalid syntax, So adjacent elements are not allowed. We need to have a single value to be returned as:-
+   function square(a) {
+   return (
+   a \* a;
+   )
+   }
+   So, The JSX must also have a single returned value and to do this, we should enclose it in a parent element.
+
+4. So , if we give a parent div then, one more div is added. So, to avoid this we use React.Fragment.
+   React.Fragment is a component of react, that can be used as a parent element but it doesnt add any extra div in elemet,we can Inspect and see.
+   It can be called as an
+   <React.Fragment>
+   .......
+   <React.Fragment>
+   OR
+   <>
+   .......
+   </>
+5. In React, we give styling in object as:-
+   style={{color: "red}}
+
+or
+
+styleObj={
+color: "red
+}
+style={styleObj}
+
+@why return statement has ()- common bracket
+
+6. \*\* USE IN INTERVIEW
+   BIG company uses - Congif Driven UI
+   where data comes from backend, and UI shows it.
+
+7. Optional Chaining :-
+   It checks if the value is undefined, if the value is undefined then it will not give error in react app.(App fatega nhi).
+   Optional Chaining is incredibly useful, and widely supported (excluding Internet Explorer). It can be used with pretty much any combination of property, array or function, depending on return types. For example:
+
+obj?.property
+obj?.[property]
+obj[index]?.property
+obj?.(args)
+func(args)?.property
+
+eg :- data?.name
+
+- Nullish Coalescing:- In Javascript, the nullish coalescing operator, or ?? operator is used to return the right hand side whenever the left hand side is null or undefined. To understand a little bit better, let’s look at a few examples:
+  // Is set to 0
+  let x = 0 ?? "hello";
+
+// Is set to goodbye
+let y = undefined ?? "goodbye";
+
+// Is set to hello
+let z = null ?? "hello";
+
+// Is set to false
+let a = false ?? "goodbye";
+
+\*\* GOOD TO KNOW:- It's good to know that by default, if a function has no return, it returns undefined
+
+8. props - properties in react
+
+9 what are argument and parament?
+-> function Name(param1, param2){
+}
+Data function receive is parameter
+
+Name("Nik","123");
+Data passed while calling a function is function argument.
+
+So, we pass arguments and receives parameter.
+
+10. When we call any component , then its same as calling a function,
+    <restaurant data={res[0]) /> === {restaurant(res[0])}
+
+A component is a function at the end of the day.
+
+11. props can be used in different ways:-
+1. const Restaurant = ({props}) = {
+   props.restaurant?.name
+   props.restaurant?.food
+   props.restaurant?.start
+   }
+
+1. const Restaurant = ({ restaurant }) = {
+   restaurant?.name
+   restaurant?.food
+   restaurant?.start
+   }
+
+1. const Restaurant = ({props}) = {
+   const {name, food, star} = restaurant.data
+   name
+   food
+   start
+   }
+
+1. const Restaurant = ({
+   name,
+   food,
+   star
+   }) = {
+   Use it as:-
+   name
+   food
+   start
+   }
+   For this we also have to pass data in this way:-
+
+<Restaurant name={reastaurant?.data.name} food={restaurant.?.data.food} star={restaurant?.data.star} />
+OR
+<Restaurant {...restaurant?.data} />                  {Amazing}
+
+12. Virtual DOM is the representation of the real DOM,
+    virtual DOM is needed for Reconcialation.
+    Reconcialatio is a concept of react- read official doc,
+    So, basecally diff alogorithms updates it.
+
+\*When any node is updated in the DOM, their child nodes are also updated. Their parent node is not updated
+
+\*Suppose a node has 3 child nodes, if i add one more node in react, then react will have problem in identifying which node has added so it will update all the sibling nodes but the added node should be of same type
+eg
+There are 3 div, one more div is added, then react will have problem in identifying the new div, so it will update all the div in that row
+BUT
+There are 3 div, one more image tag is added, then react can identifying the new image, so it will update image tag in that row. React can identify different types of tags, like div, img, boby etc
+
+So, to avoid that extra rendering in react, we give Key to the div, with the help of key react understands, which div is recently added and which divs where already their, and it updates only the new div.
+
+\*diff algorithms is similsr to git diff
+
+\*Reconcialiation uses diff alogothrims and find the difference btw the tree, and update only that portion of app which diff algorithms founds it
+
+13. React Fiber - Read about it- in homework thier is link to read.
+    \*Its a new Reconcialaton engine in react 16, and this is responsible for diff algorithms
+
+14. Never use index as a key? why? - Read officila doc
+    Using Unique key is best practice
+    Index can be used, if there are no unique key
+
+Index are not a good practice to use as a key, suppose we used index as key:-
+eg:- <ul>
+
+  <li key=1>Milk</li>
+  <li key=2>Eggs</li>
+  <li key=3>Bread</li>
+</ul>
+
+If we add an item to the end of the list, React no longer needs to re-render the first 3 list items which are same. It will just add a new list item at the end:-
+eg:- <ul>
+
+  <li key=1>Milk</li>
+  <li key=2>Eggs</li>
+  <li key=3>Bread</li>
+  <li key=4>Butter</li>
+</ul>
+
+But suppose we add the new item at the beginning of the list.Now, the key of remaining list items also changes, which makes React re-render all the elements again, instead of just adding a new item at the end.
+This can be avoided if we use some unique id as a key rather than index.
+Let's again consider the same previous example but this time by using a unique id as key.
+
+<ul>
+  <li key="12abc">Milk</li>
+  <li key="23bcd">Eggs</li>
+  <li key="34cde">Bread</li>
+</ul>
+Now even if we add element to the beginning or the end, we won't face an issue since keys are different.
+
+** Always prefer using a unique id as value for the key attribute in a list and avoid using index.
+**Using index might result in performance issues and data binding issues in case reordering in the form of sorting, filtering might happen.
+
+- no key < index < unique key
+  no key se acha h index, or index se acha h unique key

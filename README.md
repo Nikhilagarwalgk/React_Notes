@@ -438,8 +438,10 @@ npm run start === npm start
    Install npm :- babel plugin transform remove console
 
 4. sometime we have key warning, for the sibling data then give key attribute in render
-<h1 key="h1"> name<h1>
+<!--
+ <h1 key="h1"> name<h1>
 <h1 key="h2"> name<h1>
+-->
 
 "key" are unique for every data.
 

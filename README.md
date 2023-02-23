@@ -438,10 +438,8 @@ npm run start === npm start
    Install npm :- babel plugin transform remove console
 
 4. sometime we have key warning, for the sibling data then give key attribute in render
-
- <h1 key="h1"> name<h1>
+<h1 key="h1"> name<h1>
 <h1 key="h2"> name<h1>
-
 
 "key" are unique for every data.
 
@@ -863,3 +861,86 @@ Now even if we add element to the beginning or the end, we won't face an issue s
 
 - no key < index < unique key
   no key se acha h index, or index se acha h unique key
+
+  ## Interview Question:-
+
+  Question Asked in interview:-
+
+1. Implement promise, closure, asyn await
+2. Print 1 to 6
+3. Make a clock, css question
+4. How will you implement, trending page of twitter- So, generally want to know how u will do API call, how many API are needed, when willl the API will be called.what will happen if certain API fails
+   Trending page of youtube.
+5. Knowledge about browser, How does a browser works?
+   Know about browser?
+6. Back ground me html kaise chalata h
+7. Improve performance, cacheing,
+
+## Lets build Our Store
+
+1. We use context API to avoid props drilling
+2. For small application, we dont use redux
+3. Redux is used for data management
+4. Flow of redux
+
+Click on Add ---> dispatch Actipn will call a function ---> This will modify our cart(slice of the store)
+
+Here, the function is known as Reducer.
+
+Whwn we click on a button the, it will dispatch an action, whitch will call a Reducer function, and this function will update the slice of the store.
+
+Again,
+onClick a button
+dispatch an Action
+It calls the Reducer Function
+Reducer function updates the Slice of a redux store
+
+To fetch data from store we use Selector.
+Selector - selecting a portion of the store
+useSelector is a hook, hooks are a function
+
+when we update store, then it will automatically upadate the UI.
+
+5. npm i @reduxjs/toolkit
+   npm i react-redux
+
+@why two library?
+-> first(@reduxjs/toolkit) is the core library , second(react-redux) is the bridge between react and redux
+RTK = redux toolkit
+
+6.reducer function don't return (1:30 hrs)
+
+7. subscribe to store means in sync with store, mostly the component useing store are subscribe my store.
+
+8. Flow of redux while writing:-
+   Create Store - configure store() - RTK
+
+Provider my store to app - <Provider store = {store} /> - import from react-redux
+
+Create a slice - createSLice({ - redux/toolkit or RTK
+name: "",
+initialState:{
+}
+reducer:{
+addItem: (state, action)=>{state=action.payload}
+}
+})
+export default userSLice.reducer;
+
+Put that Slice in Store
+-{
+reducer:{
+user: UserSlice,
+}
+}
+
+9. Redux is very big library and has a lot of interesting things to explore.GO and find it...
+
+10. Only subscribe to speecific portion of the store, eg : cartSlice, foodSlice. etc. not the whole store.(It will optimise the app)
+
+eg:-
+const cartItem = useSelector((store) => store.cart.item) ----(RIGHT)
+
+const store = useSelector((store) => store)) ------(WRONG)
+
+11. Work with redux dev tookkit... its amazing

@@ -1,0 +1,449 @@
+# Lets Get Classy
+
+@what is the diff btw render and return in class component and functional component?
+DO IT - Try making nested rotes as children of children in routing.
+
+
+NOTE:- See the assignment of other react student on github to check your own error in code.
+
+2. The render method is the only mandatory method in every class-based component.
+
+3. we this.props.name in the class components.
+
+4. In class component we make  a class as:-
+class Profile extends React.Component 
+- here we use inheritance
+
+5. We have constructor,in the class
+@why we use super in class component
+
+6. What is called first in class component?
+ans:-
+  Constructor
+  render
+  componentDidMount
+
+7. we make API call in componentDidMount.
+
+8. Whenever we call a class then a constructor is automatically called.
+
+9. Calling sequence when we have a child compoennt as well
+- parent  - Constructor
+parent -  render
+child  - constructor
+child - render
+child - componentDidMount
+parent - compoenntDidMount
+
+10.calling sequence of two children in parent component are:-
+- Parent Constructor
+  Parent Render
+	First child - Constructor
+	First Child - Render
+	Second Child - Constructor
+	Second Child - Render
+	First Child - componentDidMount
+	Second Child - componentDidMount
+  Parent - componentDidMount
+
+@how the above flow is working ?
+->React has two phase as:- Render Phase and Commit Phase
+
+First, render phase of all component runs that includes, constructor and render for all the components together.
+After the render phase for every component has been made, then commit phase start.
+Then, after render phase is completed then the commit phase is starts.
+
+Commit Phase - It includes the updated DOM and refs, 
+componentDidMount, componentDidUpdate, componentWillUnmount.
+Actually the DOM is modified in this phase.
+
+11. Babel hepls to convert the JSX into the html.
+
+12. FIND OUT:-
+We can make componentDidMount async but we cannot make useEfect async, why?
+
+13. async componentDidMount(){
+	code here...
+	}
+
+14. componentWillUnmont - It is called just before the component is unmounted.
+
+15. useEffect is not equivalent to componentDidMount. They are both different.
+
+16. Single Page Application(SPA) - where new pages are not loaded only the component is changes. 
+
+Problem
+:- componentDidMount(){
+	this.timer = setInterval(()=>{
+	console.log("intercal")
+	}, 1000)
+}
+
+SO, in which ever component you are this particular code rendered again and again.
+
+TO Prevent this:-
+
+We have to use clear interval in componentWillUnmount.
+componentWillUnmount(){
+	clearInterval(this.timer)
+}
+
+NOTE:- Every time we are using such things we have to claen them up when that particular component is unmounted.
+
+In Functional React:-
+
+useEffect(() =>{
+	this.timer = setInterval(()=>{
+	console.log("intercal")
+	}, 1000)
+
+	return ()=>{
+		clearInterval(timer)
+	} 
+}, [])
+
+@Why do we Unmount Component?
+
+
+# Data is the new oil
+
+@ Babel converts JSX into JS
+@ differenc btw state and props?
+
+# Data for Me:-
+
+Difference:-
+callback
+promise
+async await
+RxJS Observables
+
+
+The main difference between using callbacks and promises is that, using promises we can avoid the "pyramid" effect created by callbacks within callbacks, making the code easier to understand.
+
+** At the end of each .then() it is possible to return:
+
+a value like an object, an array, a string, etc.
+In this case the next then in sequence will be immediately executed.
+
+another promise
+This is what we've done in the example above.
+For each then in the sequence to wait for an operation to be completed, a promise must be returned. Once the promise has been resolved, the execution proceeds.
+
+@ Babel converts JSX into JS?
+@ differenc btw state and props?
+- state can be changed that does re-render, where props cant be changed it can used to pass data from one to another component.
+@props drilling - passing the props data down, from one component to another
+@never write permitation combiantion with variable  in the code.
+
+@IIFE - Ran as soon as defined
+@React router uses react context for routing.
+@Check -  can we have multiple nested context.
+
+
+# Exploring the World:-
+
+1. How to make a microservices in react?
+2. How to combine them together so, it look as like a single application?
+3. Microservices Architecture:- Instead one single project, we have mutiple project for diiferent work that combine to make a single project. eg:- different project for notification, logs, Ui, .Its possible that each project is wriiten in different language also.
+
+All the project are deployed on different ports(3000, 4000, 5000 etc) of same domain or different domain also.
+
+4. Separation of Concern(SOC) = where one microservice has nothing to do with another microservice.
+
+5. Monolithic Architecture:- Where there is only one project, if change a single button also then we have to deploy the whole application.
+
+6. Hooks are normal function comming from react library
+7. CORS video by Akshay Saini 
+
+8. In the starting, when the api is called, we show a loader then when data comes we show the data.So, thats a bad practice.
+Instead we should should an empty boxes with some effect, so the user also knows that the data will load in the cards.eg - swegi and youtube
+
+Its a Shimmer UI Design. 
+READ about shimmer design
+
+9.We can also do early return. As before the main return, check any condition in global scope and return. eg:-
+
+if(restaurant) return null
+
+return(
+<>
+	{"JSX"}
+</>
+)
+
+# Finding the path:-
+
+@What is called first in react application?
+- First code inside render will be called and then the code inside the useEffect will be called.
+
+NOTE:- A useEffect with no dependency bracket will be called every time the page is re-rendered, if it has an empty bracket in useEffect then it will be called only once, when the component loads.
+AND if we pass a value in dependency array then it will be called twice. First when the component loads, Second when the value in dependency array changes.
+
+@Read about image from cdn or cloud(AWS)?
+-> Write a code for the shimmer by your own
+NOTE:- Don't use package for every small-thing, as the package take are large enough.
+Use package only when the things are complicated to build
+
+@Use Formik for form. Make a project with formik form.
+
+ADD ROUTER IN React App:-
+CreateBrowserRouter
+Adding ErrorElement - error components
+add - useRouteError - shows details error
+
+@what is the problem with ancor tag(href="/")?
+-> It reloads the whole page.
+
+- React is used to create a single page application.(SPA) read bout it.
+
+- There are two type of routing:-(READ ABOUT IT)
+1. Server side routing - All our pages is comming from server, it also makes an network call for getting data of the page. Old pages are build in such a way.
+
+2. Client side routing - It does not require any API call as all our pages are already there, it just calls the component.
+We dont need to get data from the server.
+
+@Link component of react-router-dom uses ancor tag internally, without loading the whole page.
+
+@Making an app where header and footer is static and all the children are between them.
+
+@how routing works?
+- Use outlet for making children in routes.
+
+@dynamic segment?OR dynamic Routing?
+- when passing any id or name in routing for URL which is dynamic. we use useParam.
+
+- according to a dynamic data an API is called through the routes.
+
+@what is useParam from react-router-dom?
+@ what data.json() does?
+@how to iterate over object? eg:- Object.value(name)
+- when creating an state then can assign a null to it, as default will not break
+or
+can add ?(optional chaining) in state in return
+or
+can add a shimmer component, when data is not present.
+
+@what .fill("") does?
+
+@what is the difference between null and undefined?
+->
+1. As typeof null is "object"
+typeof undefined is "undefined"
+
+2. null is an assigned value. It means nothing.
+3. undefined means a variable has been declared but not defined yet.
+4. null !== undefined but null == undefined.
+
+
+@How to optimize the react app?
+- 
+1. Avoiding unnecessary rerenders
+2. Using a UID (unique identifier) when rendering lists
+3. Using hooks such as useMemo and useCallback to memoize expense functions
+4. Mounting checks.
+
+@how to handle state in large app?
+- Making an object
+Using redux
+
+@. Can you describe a time when you had to work with a complex data structure in a React application? How did you handle this?
+- Adding debouncing for search
+- add unique key for list
+- Nested data structures such as a tree or a graph.
+- Large data sets that need to be displayed and manipulated in a table or list view.
+- Data structures with many levels of nesting, such as a JSON object with multiple layers of nested objects and arrays.
+- Data structures that are constantly changing, such as real-time data from a live feed or websocket connection.
+
+@. How do you handle asynchronous actions in a React application?
+- One way is to use the async and await keywords, which allow you to write asynchronous code in a synchronous-looking style.
+Another way to handle async functions in React is to use a library like axios or fetch to make API calls. Here's an example using axios:
+
+@. Can you discuss the difference between a presentational and container component in React?
+- In React, presentational components are concerned with how things look, while container components are concerned with how things work.
+
+Presentational components are usually responsible for rendering UI elements to the screen, and they tend to be functional components that receive data and callbacks as props. They are usually focused on rendering JSX and are not aware of the app’s state or actions.
+
+Container components are usually responsible for managing state and actions, and they tend to be class-based components that contain the logic for fetching data, handling user input, and performing other tasks. They are aware of the app’s state and actions, and they pass data and callbacks to presentational components as props.
+
+@why we have to store a hook in a constant?
+eg:- const err = useRouteError();
+
+# JO Dekhta, Whi bikta hai:-
+
+@ Read about the scss?
+@ who maintain material Ui?
+@ Designng Sites:- Ant UI , material UI, Base UI maintained by uber, Chakra Ui
+
+pros to using css framework:-
+1. Not focus much upon css
+2. Gives a consistency
+3. Makes the developement very fast
+
+cons of using css framework:-
+1. It does not work in all devices
+2. It restrict u in someway
+
+@ Tailwind CSS Framework is in trend now a days
+@ Configure the tailwind css in your project
+@ Read about the PostCSS?
+@ Install tailwind css intelliSense in vs code plugin
+@for suggestion --> ctrl + space + plus
+@Using a square barcket, we can give our own dynamic data to classname. 
+@Practice the Tailwind Css, Create an application using tailwind.
+@Pros of Tailwind:-
+ Easy to use and debug
+ Fast development
+ bundle size is less
+ You can customose the css
+ Everything in Js file
+
+@Cons:-
+Too much classes
+Too much code
+
+@always see the pros and cons of any technology
+
+# Optimisation The Application:-
+
+@ Read about the scss?
+@ who maintain material Ui?
+@ Designng Sites:- Ant UI , material UI, Base UI maintained by uber, Chakra Ui
+
+pros to using css framework:-
+1. Not focus much upon css
+2. Gives a consistency
+3. Makes the developement very fast
+
+cons of using css framework:-
+1. It does not work in all devices
+2. It restrict u in someway
+
+@ Tailwind CSS Framework is in trend now a days
+@ Configure the tailwind css in your project
+@ Read about the PostCSS?
+@ Install tailwind css intelliSense in vs code plugin
+@for suggestion --> ctrl + space + plus
+@Using a square barcket, we can give our own dynamic data to classname. 
+@Practice the Tailwind Css, Create an application using tailwind.
+@Pros of Tailwind:-
+ Easy to use and debug
+ Fast development
+ bundle size is less
+ You can customose the css
+ Everything in Js file
+
+@Cons:-
+Too much classes
+Too much code
+
+@always see the pros and cons of any technology
+
+# Time For the Test:-
+- Test driven developement - Its writting test cases before development.
+
+- Differnet type of testing:-
+1. Manual testing
+2. Automation testing - code testing code
+	eg:- selenium
+E2E testing is entire user journey testing
+3. unit testing - Its testing small unit by developer
+eg testing of a cards, logo, cart etc
+4. Integration Testing
+5. smoke testing
+
+For developers has:-
+unit and integration testing
+
+@ whats headless browser?
+
+- Enzyme is old testing library, now no body uses it.
+- Jest is the new testing framework
+Jest is a delightful JavaScript Testing Framework with a focus on simplicity.
+
+It works with projects using: Babel, TypeScript, Node, React, Angular, Vue and more!
+
+Latest version of Jest is used in the project.
+
+* what to do:-
+
+- install react testing library 
+cmd :- npm install --save-dev @testing-library/react
+- Install Jest :- npm i -D jest
+- configure Jest using:- npx jest --init
+asked few question answer it:- 
+select browser-like
+babel
+select jsdom
+@ what is jsdom?
+add coverage report - yes
+clear automatically
+
+Now, jest.config.js is craeted.
+
+there can be some error, so install jest jsdom
+- npm i -D jest-envirnment-jsdom
+
+-create test folder:- __test__
+this file is mandatory as jest understant it, also known as dender.
+@what is dender?
+@what is the difference between json and js object?
+- create file:- sum.test.js 
+function.test.js - file name standard
+sometime uses spec instaed of test in naming convention.
+
+- configure babel - as jest need babel packages:-
+npm install --save-dev babel-jest @babel/core @babel/preset-env
+
+- now, we can configure babel in babel.rc or babel.config.js
+see screen shot
+
+- write test cases in test file
+- add coverage folder in gitIgnore file
+** rember two cmd is required for thses thing. one for the project and another for the testing 
+
+- The testing is not running in our browser, its in code.
+
+FIND:-
+* Difference between Js object and Json?
+* read about jsdom?
+
+# Personal Branding:-
+
+(()=>{
+    console.log("Name")
+})()
+
+Things That u want people to know about me?
+- Javascript 
+- React 
+- Programming
+
+@how to create a  personal brand?
+- Research about the topic
+- Prepare the content
+- Scripting
+
+Best place to study DSA:-
+- MIT video
+- MIT Courses
+- NPTL Coures for DSA
+
+But still we see other DSA videos because content is not the only thing,
+the way of teaching, 
+
+@All jokes in video are also scripted
+@Be honest, in your branding, in your post etc
+Keep doing things, keep learning, keep giving interview
+Always write the positive vibe things, write about positive side of anything
+Never get inside any controversary
+Give your heart and soul in whatever you do....<-- This is exactly missing in your interview
+
+Personal brand is intentional - you have to create it
+Know in what field you wnat to be known for
+Use LinkedIn,
+Be Confident always
+
+Even before people know u, u should know what people should know u for - Programming, Javascript, react Js,
+Be responsible for your post, 
+

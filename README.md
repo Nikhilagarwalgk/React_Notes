@@ -46,9 +46,16 @@ dev dependencies are those that our project needs for development, eg:- parcel.
 
 9. learn about ^(caret) and ~(tilde) in packages ?
 
-      "^" ->	Compatible with the current version	-> ^1.2.3. Supoorts >=1.2.3 but <2.0.0
+      "^" ->	Compatible with the current version	-> ^1.2.3. Supoorts >=1.2.3 but <2.0.0.
+      Keeps major version pinned, but updates minor and patch versions.
 
       "~" ->	Approximately equivalent (patch updates only) -> ~1.2.3. Supports	>=1.2.3  but not <1.3.0
+      Keeps major and minor version fixed.
+
+      eg:- 18.1.6
+            18 is major version
+            1 is minor version
+            6 is patch
 
 
 11. package without these sign means, they want to use this specific version?

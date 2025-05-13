@@ -660,7 +660,7 @@ coding on number
 
     So, in box-sizing is default content-box, In which width is the width of content. So, total width is content + padding + border.
     
-    In box-sizing is default border-box, In which width is the width of Content + padding + border. So, total width is same.
+    When box-sizing is border-box, In which width is the width of Content + padding + border. So, total width is same.
 
 
 

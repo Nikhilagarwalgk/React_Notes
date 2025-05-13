@@ -45,7 +45,14 @@ npm install --save-dev parcel (development, same)
 dev dependencies are those that our project needs for development, eg:- parcel.
 
 9. learn about ^(caret) and ~(tilde) in packages ?
-10. package without these sign means, they want to use this specific version?
+ 
+   | Symbol | Meaning                                           | Example  | Allows Updates To |
+| ------ | ------------------------------------------------- | -------- | ----------------- |
+| `^`    | **Compatible with the current version**           | `^1.2.3` | `>=1.2.3 <2.0.0`  |
+| `~`    | **Approximately equivalent (patch updates only)** | `~1.2.3` | `>=1.2.3 <1.3.0`  |
+
+
+11. package without these sign means, they want to use this specific version?
     11.About package-lock.json?
     -> Its a very important file
     its lock the version

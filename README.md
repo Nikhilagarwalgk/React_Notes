@@ -45,11 +45,9 @@ npm install --save-dev parcel (development, same)
 dev dependencies are those that our project needs for development, eg:- parcel.
 
 9. learn about ^(caret) and ~(tilde) in packages ?
- 
-   | Symbol | Meaning                                           | Example  | Allows Updates To |
-| ------ | ------------------------------------------------- | -------- | ----------------- |
-| `^`    | **Compatible with the current version**           | `^1.2.3` | `>=1.2.3 <2.0.0`  |
-| `~`    | **Approximately equivalent (patch updates only)** | `~1.2.3` | `>=1.2.3 <1.3.0`  |
+
+"^" ->	Compatible with the current version	-> ^1.2.3. Supoorts >=1.2.3 but <2.0.0
+"~" ->	Approximately equivalent (patch updates only) -> ~1.2.3. Supports	>=1.2.3  but not <1.3.0
 
 
 11. package without these sign means, they want to use this specific version?

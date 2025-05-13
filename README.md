@@ -418,6 +418,8 @@ https://browserslist.dev/?q=bGFzdCAyIHZlcnNpb25z
 
 35. what are linter in js?
 
+      A linter in JavaScript is a tool that analyzes your code to find and fix problems—such as bugs, style violations, or code that doesn’t follow best practices. It’s especially useful in team projects to maintain consistency and reduce errors. Eg :- ESLint, JSHint
+   
 36. what are interceptor in axios?
 
     An interceptor in Axios is a powerful feature that allows you to intercept and modify requests or responses before they are handled by .then() or .catch(). It’s useful for tasks like setting headers (e.g., auth tokens), logging, error handling, or transforming responses.

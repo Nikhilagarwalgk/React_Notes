@@ -420,6 +420,9 @@ https://browserslist.dev/?q=bGFzdCAyIHZlcnNpb25z
 
 36. what are interceptor in axios?
 
+    An interceptor in Axios is a powerful feature that allows you to intercept and modify requests or responses before they are handled by .then() or .catch(). It’s useful for tasks like setting headers (e.g., auth tokens), logging, error handling, or transforming responses.
+    https://axios-http.com/docs/interceptors
+
 ## Laying the foundation - FOURTH DAY
 
 git init - create a file as .git-ignore

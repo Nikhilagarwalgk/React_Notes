@@ -7,6 +7,17 @@
    => A bundler is a tool that puts together all your JavaScript code and its dependencies and throws a new JavaScript output file with everything merged, ready for the web, commonly known as the bundle file.
 
 - /dist will be the folder created after the bundle process and will contain all the bundled files.
+    Common Files in /dist Folder (Production Build)
+    Here’s what you might find in a /dist folder:
+
+   1. index.html ->	The main HTML file served to the browser. It includes links to the JavaScript and CSS bundles.
+   2. main.[hash].js ->	Minified and bundled JavaScript file(s), often with hash in filename for cache busting.
+   3. main.[hash].css ->	Bundled and minified CSS file(s), also hashed for cache busting.
+   4. assets/ or static/ ->	Folder with images, fonts, or other static assets. Sometimes broken into js/, css/, media/, etc.
+   5. favicon.ico ->	Website favicon (if added).
+   6. manifest.json ->	Metadata for Progressive Web App (optional).
+   7. robots.txt ->	Instructions for search engine crawlers (optional).
+   
 - /src is the folder containing the entry point from which the bundler will start the bundle process.
 
 - /styles is the folder containing the original styles file, before the bundle.

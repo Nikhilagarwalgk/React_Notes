@@ -52,7 +52,7 @@ dev dependencies are those that our project needs for development, eg:- parcel.
       "~" ->	Approximately equivalent (patch updates only) -> ~1.2.3. Supports	>=1.2.3  but not <1.3.0
       Keeps major and minor version fixed.
 
-      eg:- 18.1.6
+      eg:- 18.1.6 where 
             18 is major version
             1 is minor version
             6 is patch
@@ -112,6 +112,8 @@ dependencies -- Its present globally(development + production)
 24. Never touch node-modules and package.lock.json
 
 24.what is type in script tag?
+    ![image](https://github.com/user-attachments/assets/0cce0e38-781d-4f7b-8871-3ae32992a858)
+
 
 25. When we save changes in file, then automatically the server reloads and show the changes?
     --> This functionality is called live server, but not all live server have this function.

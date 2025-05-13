@@ -640,10 +640,25 @@ bcz functional component are also a function at the end of the day.
 coding on number
 
 1. All hooks
-2. Box model, css selector
-3. what are fragment
-4. Css - grid box, html- meta tag
-5. What is Higher Order Component? Have you used any in your project?
+2. Box model, css selector ?
+      The CSS Box Model is the foundation of layout in web design. Every HTML element is treated as a rectangular box, and the box model describes how its size and spacing are calculated.
+   ![image](https://github.com/user-attachments/assets/fdf1fb10-fcf3-4272-a173-3fa9dbf21a49)
+
+   ![image](https://github.com/user-attachments/assets/54715ce9-2e88-40a7-ad45-5132b077ef2e)
+
+   ![image](https://github.com/user-attachments/assets/4b13dd87-27de-4e72-a67f-ab22435ab37c)
+
+
+3.  What is box-sizing in CSS?
+      Box-sizing is a CSS property that controls how the TOTAL WEIGHT and HEIGHT of an element are calculated — especially when padding and border are added.
+      ![image](https://github.com/user-attachments/assets/291d13e1-7774-4cee-b4fd-72cfca43476d)
+
+
+
+
+4. what are fragment
+5. Css - grid box, html- meta tag
+6. What is Higher Order Component? Have you used any in your project?
    How do you Handle API calls on your React App?
    How do you chain multiple API calls that is depending on the previous request?
    How will you optimize a React Application?

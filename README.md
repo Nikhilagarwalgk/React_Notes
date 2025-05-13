@@ -659,8 +659,22 @@ coding on number
     ![image](https://github.com/user-attachments/assets/66d17e05-97ed-492b-bbd4-5b8c2dd0e806)
 
     So, in box-sizing is default content-box, In which width is the width of content. So, total width is content + padding + border.
+    here, width = 200px
+          padding = 20px
+          border = 10px
+    so,
+    Content width is 200px
+    Total width is 200px + 2*20 + 2*10 = 260px
     
     When box-sizing is border-box, In which width is the width of Content + padding + border. So, total width is same.
+      here, width = 200px
+          padding = 20px
+          border = 10px
+    so,
+    Total width is 200px (including Content + padding + border)
+    Content width = 200px - (2*20 + 2*10) = 140px
+
+    
 
 
 

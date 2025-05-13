@@ -172,7 +172,7 @@ This is how we can perform the equivalent of componentDidMount using the useEffe
 
 useEffect(() => {
 // Inside this callback function we perform our side effects.
-});
+},[]);
 
 Just calling the useEffect Hook and passing the callback function, we’re performing the equivalent of the componentDidMount lifecycle method. Very easy.
 

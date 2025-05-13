@@ -641,7 +641,8 @@ coding on number
 
 1. All hooks
 2. Box model, css selector ?
-      The CSS Box Model is the foundation of layout in web design. Every HTML element is treated as a rectangular box, and the box model describes how its size and spacing are calculated.
+
+   The CSS Box Model is the foundation of layout in web design. Every HTML element is treated as a rectangular box, and the box model describes how its size and spacing are calculated.
    ![image](https://github.com/user-attachments/assets/fdf1fb10-fcf3-4272-a173-3fa9dbf21a49)
 
    ![image](https://github.com/user-attachments/assets/54715ce9-2e88-40a7-ad45-5132b077ef2e)
@@ -649,16 +650,27 @@ coding on number
    ![image](https://github.com/user-attachments/assets/4b13dd87-27de-4e72-a67f-ab22435ab37c)
 
 
-3.  What is box-sizing in CSS?
-      Box-sizing is a CSS property that controls how the TOTAL WEIGHT and HEIGHT of an element are calculated — especially when padding and border are added.
+4.  What is box-sizing in CSS?
+
+    Box-sizing is a CSS property that controls how the TOTAL WEIGHT and HEIGHT of an element are calculated — especially when padding and border are added.
       ![image](https://github.com/user-attachments/assets/291d13e1-7774-4cee-b4fd-72cfca43476d)
+      ![image](https://github.com/user-attachments/assets/85118cde-3f29-4714-8cce-5b9cc6409e70)
+    ![image](https://github.com/user-attachments/assets/1a715831-6ede-4dbd-9be2-818704f1c8b9)
+    ![image](https://github.com/user-attachments/assets/66d17e05-97ed-492b-bbd4-5b8c2dd0e806)
+
+    So, in box-sizing is default content-box, In which width is the width of content. So, total width is content + padding + border.
+    
+    In box-sizing is default border-box, In which width is the width of Content + padding + border. So, total width is same.
 
 
 
 
-4. what are fragment
-5. Css - grid box, html- meta tag
-6. What is Higher Order Component? Have you used any in your project?
+
+
+
+6. what are fragment
+7. Css - grid box, html- meta tag
+8. What is Higher Order Component? Have you used any in your project?
    How do you Handle API calls on your React App?
    How do you chain multiple API calls that is depending on the previous request?
    How will you optimize a React Application?

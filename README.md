@@ -665,7 +665,7 @@ coding on number
           border = 10px
     so,
     Content width is 200px
-    Total width is 200px + 2*20 + 2*10 = 260px
+    Total width is 200px + 2 * 20 + 2 * 10 = 260px
     
     When box-sizing is border-box, In which width is the width of Content + padding + border. So, total width is same.
       here,
@@ -674,7 +674,7 @@ coding on number
           border = 10px
     so,
     Total width is 200px (including Content + padding + border)
-    Content width = 200px - (2*20 + 2*10) = 140px
+    Content width = 200px - (2 * 20 + 2 * 10) = 140px
 
     
 

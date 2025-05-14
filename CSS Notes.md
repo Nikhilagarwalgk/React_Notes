@@ -1,4 +1,5 @@
 1. What is CSS Selector?
+   
 -> A CSS selector is a pattern used to select and style HTML elements. Selectors tell the browser which elements the CSS rules apply to.
     Here's a quick overview of common types of CSS selectors:
    ![image](https://github.com/user-attachments/assets/c6e36ac3-bf01-4add-997b-4c59905f099e)

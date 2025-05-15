@@ -13,6 +13,10 @@
 2. What is the difference between relative, absolute, fixed, and sticky positioning in CSS?
    ->
    ![image](https://github.com/user-attachments/assets/f787ee61-187b-4bc7-9343-bfe5b8019121)
+   ![image](https://github.com/user-attachments/assets/b31471fa-a1ed-4cf7-8bae-8fd90c4c7cbf)
+   ![image](https://github.com/user-attachments/assets/da925a26-c335-4032-ab5d-049272e645b8)
+
+
 
 
 

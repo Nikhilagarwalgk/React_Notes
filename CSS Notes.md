@@ -30,6 +30,7 @@
    ![image](https://github.com/user-attachments/assets/64b629e3-2222-4f9a-a940-c71b0d6c4e52)
 
    🌍 Why Use Media Queries?
+   
        -  Ensure content is legible and usable across devices.
        -  Avoid horizontal scrolling on mobile.
        -  Adapt layouts, font sizes, image scaling, and navigation design.

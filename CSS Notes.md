@@ -38,6 +38,14 @@
 
       ![image](https://github.com/user-attachments/assets/4ef3bb0e-1eff-49c1-9b93-4473efadbe60)
 
+5.  How does the z-index property work?
+6.Explain stacking context, positioning, and nesting.
+
+7. What is a reflow (layout thrash), and how can you minimize it in CSS?
+8. What are CSS custom properties (variables), and why use them?
+9. What is the difference between em, rem, %, vh, and vw units?
+10. Explain how these units relate to font size, parent size, and viewport.
+
 
 
 

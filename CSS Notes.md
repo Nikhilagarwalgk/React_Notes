@@ -39,6 +39,7 @@
       ![image](https://github.com/user-attachments/assets/4ef3bb0e-1eff-49c1-9b93-4473efadbe60)
 
 5. How to center a div?
+   
    --> Using Flex-box:-
    ![image](https://github.com/user-attachments/assets/bb597010-1259-445c-8e89-5485885aab36)
    ![image](https://github.com/user-attachments/assets/84a1c8c0-5e77-487a-8f9a-b322b1cc431e)
@@ -47,8 +48,10 @@
    Set align-items to center for vertical centering.
    
    ** Using Grid:-
-   ![image](https://github.com/user-attachments/assets/0804063d-c2c0-417d-bff1-29cb81f3a7ba)
-   ![image](https://github.com/user-attachments/assets/66110aa3-2e53-4988-837c-3f00bd4311ee)
+   
+      ![image](https://github.com/user-attachments/assets/0804063d-c2c0-417d-bff1-29cb81f3a7ba)
+      ![image](https://github.com/user-attachments/assets/a2cd5a12-a8bf-41e7-85ba-0ce530541eb0)
+
 
    For more reference:0 https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Center_an_element
 

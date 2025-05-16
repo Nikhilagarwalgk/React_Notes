@@ -1,1 +1,11 @@
 React Basics:-
+
+Hooks allow us to "hook" into React features such as state and lifecycle methods. Hooks were added to React in version 16.8.
+
+1. useState
+   --> The React useState Hook allows us to track state in a function component. State generally refers to data or properties that need to           be tracking in an application.
+
+   ![image](https://github.com/user-attachments/assets/abaf4bb7-8c84-4b0a-bf32-2e96cc85d52f)
+
+   
+

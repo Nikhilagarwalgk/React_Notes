@@ -56,6 +56,7 @@
    For more reference:0 https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Center_an_element
 
    Using POsition:-
+   
       ![image](https://github.com/user-attachments/assets/4ea21acc-1343-4c65-986d-fd01baeebdc5)
 
    Tested code on live Html:-
@@ -69,6 +70,14 @@
      justify-content: center;
      align-items: center;
      height: 100vh
+   }
+
+   Using Position:-
+   .outside {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
    }
       
 

@@ -116,9 +116,14 @@ A stacking context is a self-contained environment where the z-index of elements
 
 
 7. What is a reflow (layout thrash), and how can you minimize it in CSS?
-8. What are CSS custom properties (variables), and why use them?
-9. What is the difference between em, rem, %, vh, and vw units?
-10. Explain how these units relate to font size, parent size, and viewport.
+   --> Nesting refers to placing one HTML element inside another — for example, a child <div> inside a parent <div>. Each nested element        inherits or creates its own stacking behavior, depending on how the parent behaves.
+      When you nest elements inside a parent that creates a stacking context, those elements:
+      Are confined to that stacking context
+
+Cannot be visually stacked above elements outside that context — no matter how high their z-index is
+9. What are CSS custom properties (variables), and why use them?
+10. What is the difference between em, rem, %, vh, and vw units?
+11. Explain how these units relate to font size, parent size, and viewport.
 
 
 

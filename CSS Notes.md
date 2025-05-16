@@ -87,7 +87,33 @@
 
 
 5.  How does the z-index property work?
+   
+      --> The z-index property specifies the stack order of an element.
+    z-index controls the stacking order of positioned elements on the z-axis (front to back).
+
+Higher z-index = Closer to the viewer = Appears on top of elements with a lower z-index.
+An element with greater stack order is always in front of an element with a lower stack order.
+
+Note: z-index only works on positioned elements (position: absolute, position: relative, position: fixed, or position: sticky) and flex items (elements that are direct children of display:flex elements). Does not work on position: static. z-index Default value:	auto.
+Inherited:	no
+
+Note: If two positioned elements overlap without a z-index specified, the element positioned last in the HTML code will be shown on top. 
+
 6.Explain stacking context, positioning, and nesting.
+
+->> https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_positioned_layout/Stacking_context
+A stacking context is a three-dimensional conceptual layer in which HTML elements are stacked on top of one another along the z-axis (the axis perpendicular to the screen).
+
+Think of it like a stack of cards — each stacking context is a separate deck, and elements inside it are arranged relative to each other, but they can’t overlap elements outside their deck unless the parent stack is higher.
+
+A stacking context is a self-contained environment where the z-index of elements is only compared within that context.
+
+![image](https://github.com/user-attachments/assets/4f1ee76a-30e5-4d2b-9770-ad180dc1effe)
+![image](https://github.com/user-attachments/assets/1c8bf54d-4a50-4e7b-9b43-38c631614c99)
+![image](https://github.com/user-attachments/assets/a7351996-021a-4c15-af1a-50508a3dcdde)
+
+
+
 
 7. What is a reflow (layout thrash), and how can you minimize it in CSS?
 8. What are CSS custom properties (variables), and why use them?

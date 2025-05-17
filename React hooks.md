@@ -16,5 +16,16 @@ Hooks allow us to "hook" into React features such as state and lifecycle methods
    https://react.dev/reference/react/useState#updating-objects-and-arrays-in-state
    https://react.dev/learn/updating-arrays-in-state
 
+@ What is State Lifting in React?
+-->State lifting in React refers to moving state up to the closest common ancestor of two or more components that need to share or coordinate the same piece of data. This is a common pattern when child components need to:
+1. Share state, or
+2.Send data back up to the parent. 
+   You "lift" the state up to a parent component, and pass it down via props.
+
+   ![image](https://github.com/user-attachments/assets/11283077-2586-4bad-9171-dd289f2fff67)
+   ![image](https://github.com/user-attachments/assets/f9edae53-ebbf-4ad4-b9c1-576884d78dd2)
+
+
+
    
 

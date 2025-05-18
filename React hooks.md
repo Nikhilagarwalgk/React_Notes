@@ -28,6 +28,21 @@ For Array state:- https://react.dev/learn/updating-arrays-in-state
    ![image](https://github.com/user-attachments/assets/f9edae53-ebbf-4ad4-b9c1-576884d78dd2)
 
 
+   @@@@
+   @Where we store data in redux? 
+window global staorage
+after we add persist, it store in local storage
+How much storage we have in window/browser storage?
+
+4. Crital Css, Atomic Css
+2.Optmization in react app?-> lazy load amd more
+why should not use MUI? How to optimize?
+1. how should be the folder structure of app?
+Design Pattern?
+3. Pasing data from child to parrent
+button in parent component, when clicks call function in child component. Data to be shown in parent component?
+
+
 
    
 

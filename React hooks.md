@@ -47,6 +47,11 @@ At first in window global staorage, after we add persist, it store in local stor
 
    ![image](https://github.com/user-attachments/assets/adf2381e-8d6b-4b3c-b3bb-60f678592297)
 
+   ![image](https://github.com/user-attachments/assets/50bbe571-1818-40bf-b118-8903b5011f78)
+
+   ![image](https://github.com/user-attachments/assets/b3722ce9-7c71-4617-9d17-43f3bd14b711)
+
+
 
 
 4. Crital Css, Atomic Css

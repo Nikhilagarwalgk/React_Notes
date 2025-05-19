@@ -67,9 +67,48 @@ When inlining your CSS into the HTML, aim for your total size to be under 14KB. 
 
 
 6. Atomic Css
-7. critical rendering path?
-8. Tree Shaking?
-9. DOM and CSSOM (CSS Object Model) ? -->  DOM + CSSOM → Render Tree
+7. Critical Rendering Path (CRP)?
+
+   ---> Refer for more details https://developer.mozilla.org/en-US/docs/Web/Performance/Guides/Critical_rendering_path.
+   The Critical Rendering Path (CRP) is the sequence of steps the browser takes to convert your HTML, CSS, and JavaScript into pixels on     the screen.It affects how fast your webpage visually loads and becomes usable.
+
+   ![image](https://github.com/user-attachments/assets/e58f5e7b-f6a2-4f83-be21-6374a2a80014)
+
+   ![image](https://github.com/user-attachments/assets/dc8e6a63-4694-41f8-ac5a-df5cae817886)
+
+   📌 Why is this important?
+   
+ - Until CSS and JS are fully loaded and processed, the page cannot be shown.
+ - Large or slow-loading files will block rendering, causing slow load times.
+ - Optimizing CRP makes your site feel fast and responsive.
+
+   🧰 Key Concepts Related to CRP:-
+   
+   ✅ 1. Render-Blocking Resources.
+   
+      - Files like CSS or synchronous JS that stop the page from showing until they’re done loading.
+      - Fix: Minimize, defer, or async-load them.
+        
+   ✅ 2. Critical CSS.
+   
+      - The minimum CSS needed to render the visible part of the page.
+      - Inline it to speed up the first paint.
+   
+   ✅ 3. First Paint / First Contentful Paint (FCP)
+   
+      - Time when something first appears on the screen (e.g., text or image).
+
+   ✅ 4. Largest Contentful Paint (LCP)
+   
+      - Time when the largest visible item (like a banner image or heading) is fully loaded.
+
+
+
+
+         
+   
+9. Tree Shaking?
+10. DOM and CSSOM (CSS Object Model) ? -->  DOM + CSSOM → Render Tree
 
    --> The Document Object Model (DOM) connects web pages to scripts or programming languages by representing the structure of a document—such as the HTML representing a web page—in memory. The DOM represents a document with a logical tree. Each branch of the tree ends in a node, and each node contains objects. DOM methods allow programmatic access to the tree. With them, you can change the document's structure, style, or content.
 

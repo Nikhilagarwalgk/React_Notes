@@ -70,6 +70,7 @@ When inlining your CSS into the HTML, aim for your total size to be under 14KB. 
 7. critical rendering path?
 8. Tree Shaking?
 9. DOM and CSSOM (CSS Object Model) ? -->  DOM + CSSOM → Render Tree
+10. what is defer in js?
 2.Optmization in react app?-> lazy load amd more
 why should not use MUI? How to optimize?
 1. how should be the folder structure of app?

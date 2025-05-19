@@ -54,7 +54,20 @@ At first in window global staorage, after we add persist, it store in local stor
 
 
 
-4. Crital Css, Atomic Css
+4. Crital Css?
+   
+   ---> Critical CSS means:👉 Only load the CSS that is needed to show the part of the webpage that you first see (before scrolling).
+   The basic idea behind critical CSS is to isolate the smallest set of styles needed to start rendering useful content and inline that CSS into the first HTML request. That way, everything the page needs to start rendering is in the first request, making your site as fast as possible.This is especially important if you are focused on the mobile web, where high latency and slow bandwidth are common.
+
+   ( High Latency means more time between the request and the response. )
+   These techniques make it possible to render a page under one second, even under bad network conditions.
+
+   Note:- Keep it under 14KB.
+When inlining your CSS into the HTML, aim for your total size to be under 14KB. This guideline is based on fitting everything in the first network TCP roundtrip.
+
+
+6. Atomic Css
+7. critical rendering path?
 2.Optmization in react app?-> lazy load amd more
 why should not use MUI? How to optimize?
 1. how should be the folder structure of app?

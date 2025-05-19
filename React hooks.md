@@ -68,6 +68,7 @@ When inlining your CSS into the HTML, aim for your total size to be under 14KB. 
 
 6. Atomic Css
 7. critical rendering path?
+8. Tree Shaking? 
 2.Optmization in react app?-> lazy load amd more
 why should not use MUI? How to optimize?
 1. how should be the folder structure of app?

@@ -70,7 +70,15 @@ When inlining your CSS into the HTML, aim for your total size to be under 14KB. 
 7. critical rendering path?
 8. Tree Shaking?
 9. DOM and CSSOM (CSS Object Model) ? -->  DOM + CSSOM → Render Tree
-10. what is defer in js?
+
+   --> The Document Object Model (DOM) connects web pages to scripts or programming languages by representing the structure of a document—such as the HTML representing a web page—in memory. The DOM represents a document with a logical tree. Each branch of the tree ends in a node, and each node contains objects. DOM methods allow programmatic access to the tree. With them, you can change the document's structure, style, or content.
+
+    --> ![image](https://github.com/user-attachments/assets/29386767-2596-43f0-aa2d-58931d321a7d)
+
+   --> The CSS Object Model is a set of APIs allowing the manipulation of CSS from JavaScript. It is much like the DOM, but for the CSS rather than the HTML. It allows users to read and modify CSS style dynamically.
+
+
+11. what is defer in js?
 2.Optmization in react app?-> lazy load amd more
 why should not use MUI? How to optimize?
 1. how should be the folder structure of app?

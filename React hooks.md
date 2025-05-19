@@ -66,7 +66,37 @@ At first in window global staorage, after we add persist, it store in local stor
 When inlining your CSS into the HTML, aim for your total size to be under 14KB. This guideline is based on fitting everything in the first network TCP roundtrip.
 
 
-6. Atomic Css
+6. Atomic CSS?
+
+--> Atomic CSS is a CSS architecture and methodology that focuses on using small, single-purpose utility classes to style elements. Each class typically corresponds to one specific style rule, like margin, padding, text color, or display properties. This approach contrasts with traditional CSS, which often uses longer, descriptive class names tied to components or sections.
+
+🔹 Key Concepts of Atomic CSS:- 
+
+   - Utility-first: Classes do one thing only (e.g., mt-4 = margin-top: 1rem).
+   - Composable: Combine multiple atomic classes to style an element.
+   - Low specificity: Since there's less nesting or overriding, conflicts are minimized.
+   - Avoids custom CSS: Most styling is done directly in HTML using pre-defined classes.
+
+
+![image](https://github.com/user-attachments/assets/bcd9da45-53b5-4534-bcb3-20223d437b94)
+
+![image](https://github.com/user-attachments/assets/ee1b2fce-e34a-4a93-8560-346bcfd116e9)
+
+** Popular Atomic CSS Frameworks:- 
+ 
+   1.Tailwind CSS – The most widely used utility-first CSS framework.
+
+   2. Windi CSS – Tailwind-compatible, with performance optimizations.
+
+   3. Tachyons – One of the earliest atomic CSS libraries.
+
+   4. Basscss – Lightweight and responsive atomic CSS toolkit.
+
+   ![image](https://github.com/user-attachments/assets/e4f578a4-8d9e-4949-8a41-a9738a8e8c9d)
+
+
+
+
 7. Critical Rendering Path (CRP)?
 
    ---> Refer for more details https://developer.mozilla.org/en-US/docs/Web/Performance/Guides/Critical_rendering_path.

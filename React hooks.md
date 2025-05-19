@@ -27,9 +27,10 @@ For Array state:- https://react.dev/learn/updating-arrays-in-state
    ![image](https://github.com/user-attachments/assets/11283077-2586-4bad-9171-dd289f2fff67)
    ![image](https://github.com/user-attachments/assets/f9edae53-ebbf-4ad4-b9c1-576884d78dd2)
 
+------------------------------------------------------xxxx---------------------------------------------------------------------------
 
-   @@@@
-   @Where we store data in redux? 
+1. Where we store data in redux?
+  --> 
 window global staorage
 after we add persist, it store in local storage
 How much storage we have in window/browser storage?

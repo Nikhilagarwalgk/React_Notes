@@ -30,10 +30,24 @@ For Array state:- https://react.dev/learn/updating-arrays-in-state
 ------------------------------------------------------xxxx---------------------------------------------------------------------------
 
 1. Where we store data in redux?
-  --> 
-window global staorage
-after we add persist, it store in local storage
-How much storage we have in window/browser storage?
+   
+  --> When you use Redux in a web application: The Redux store is held in JavaScript memory, meaning:
+   1. It's stored in the RAM while the app is open in the browser.(In browser memory, that global space)
+   2. It disappears if the user refreshes the page or closes the tab (unless you explicitly persist it).
+
+   ![image](https://github.com/user-attachments/assets/579c1b7c-712c-442a-bcab-9979333ae66e)
+
+   ![image](https://github.com/user-attachments/assets/5507e738-f372-4cea-9c13-18691df71bb3)
+
+At first in window global staorage, after we add persist, it store in local storage.
+
+2. How much storage we have in window/browser storage?
+
+   ---> ![image](https://github.com/user-attachments/assets/c46869e2-d2d8-4fef-84d3-228a0aea72e7)
+
+   ![image](https://github.com/user-attachments/assets/adf2381e-8d6b-4b3c-b3bb-60f678592297)
+
+
 
 4. Crital Css, Atomic Css
 2.Optmization in react app?-> lazy load amd more

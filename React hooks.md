@@ -54,7 +54,7 @@ At first in window global staorage, after we add persist, it store in local stor
 
 
 
-4. Crital Css?
+4. Critial CSS?
    
    ---> Critical CSS means:👉 Only load the CSS that is needed to show the part of the webpage that you first see (before scrolling).
    The basic idea behind critical CSS is to isolate the smallest set of styles needed to start rendering useful content and inline that CSS into the first HTML request. That way, everything the page needs to start rendering is in the first request, making your site as fast as possible.This is especially important if you are focused on the mobile web, where high latency and slow bandwidth are common.

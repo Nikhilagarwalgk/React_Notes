@@ -131,6 +131,8 @@ When inlining your CSS into the HTML, aim for your total size to be under 14KB. 
    ✅ 4. Largest Contentful Paint (LCP)
    
       - Time when the largest visible item (like a banner image or heading) is fully loaded.
+  
+        NOTE:- https://web.dev/learn/performance/understanding-the-critical-path
 
 
 

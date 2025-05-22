@@ -188,13 +188,29 @@ When inlining your CSS into the HTML, aim for your total size to be under 14KB. 
 ![image](https://github.com/user-attachments/assets/04319cbe-c82a-4579-9e20-cc1124f118cb)
 
 
-
-
-
-
-
-
 12. what is HTML parsing? JS parsing?
+
+--> HTML parsing is the process the browser uses to read and understand the HTML code, converting it into a structured format the browser can display — called the DOM (Document Object Model).
+
+🔄 Parsing Process Step-by-Step:-
+
+1. HTML Download Begins. The browser starts reading the HTML file from top to bottom.
+
+2. Tokenization - The HTML text is broken into tokens (like tags, attributes, and content).
+
+3.Tree Construction - These tokens are used to build the DOM Tree, which is a live representation of the page structure in memory.
+
+4. Handling Other Resources While parsing HTML, the browser might:
+
+ - Request CSS, images, and fonts
+
+`- Encounter JavaScript and pause parsing (unless defer or async is used)
+
+5.Render - Once the DOM and CSSOM (for styles) are ready, the browser renders the page on the screen
+
+   ![image](https://github.com/user-attachments/assets/8bd424fc-4120-447a-933b-28898addc3cd)
+
+
 2.Optmization in react app?-> lazy load amd more
 why should not use MUI? How to optimize?
 1. how should be the folder structure of app?

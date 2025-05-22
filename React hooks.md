@@ -189,6 +189,9 @@ When inlining your CSS into the HTML, aim for your total size to be under 14KB. 
 
 ![image](https://github.com/user-attachments/assets/04319cbe-c82a-4579-9e20-cc1124f118cb)
 
+NOTE:- there are more such attribute as module and async module.
+
+![image](https://github.com/user-attachments/assets/55f91f82-e9ac-4044-a547-95866adcce81)
 
 12. what is HTML parsing? JS parsing?
 

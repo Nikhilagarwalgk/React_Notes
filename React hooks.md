@@ -100,7 +100,7 @@ When inlining your CSS into the HTML, aim for your total size to be under 14KB. 
 7. Critical Rendering Path (CRP)?
 
    ---> Refer for more details https://developer.mozilla.org/en-US/docs/Web/Performance/Guides/Critical_rendering_path.
-   The Critical Rendering Path (CRP) is the sequence of steps the browser takes to convert your HTML, CSS, and JavaScript into pixels on     the screen.It affects how fast your webpage visually loads and becomes usable.
+   The Critical Rendering Path (CRP) is the sequence of steps the browser takes to convert your HTML, CSS, and JavaScript into pixels on     the screen.It affects how fast your webpage visually loads and becomes usable. while the data is downloaded from web, In parsing, first, it converts bytes to characters & then into tokens & then into nodes & then finally into the DOM tree. 
 
    ![image](https://github.com/user-attachments/assets/e58f5e7b-f6a2-4f83-be21-6374a2a80014)
 
@@ -217,6 +217,7 @@ why should not use MUI? How to optimize?
 Design Pattern?
 3. Pasing data from child to parrent
 button in parent component, when clicks call function in child component. Data to be shown in parent component?
+4. what is Visual Formatting Model?
 
 SEACRH for the photos of question by Prabhat?
 

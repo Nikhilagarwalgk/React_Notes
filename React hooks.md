@@ -183,6 +183,12 @@ When inlining your CSS into the HTML, aim for your total size to be under 14KB. 
 
 📜 What Happens by Default with <script src="...">
 
+![image](https://github.com/user-attachments/assets/5601fac6-b188-47ad-b571-df7db9f1af3a)
+
+![image](https://github.com/user-attachments/assets/04319cbe-c82a-4579-9e20-cc1124f118cb)
+
+
+
 
 
 

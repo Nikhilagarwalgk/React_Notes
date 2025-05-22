@@ -217,7 +217,7 @@ why should not use MUI? How to optimize?
 Design Pattern?
 3. Pasing data from child to parrent
 button in parent component, when clicks call function in child component. Data to be shown in parent component?
-4. what is Visual Formatting Model?
+4. what is Visual Formatting Model, it happens during layout formation in CRP?
 
 SEACRH for the photos of question by Prabhat?
 

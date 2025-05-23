@@ -227,10 +227,18 @@ button in parent component, when clicks call function in child component. Data t
 SEACRH for the photos of question by Prabhat?
 
 @ what is different btw utility function Vs hooks?
+
 @ How useEffect work behind the seen? make using js?
+
 @ Web hooks?
+
+--> Webhooks are a way for one application to send real-time data to another application automatically when a specific event occurs. Think of them as automated messages or notifications triggered by events.
+
+
 @ Difference web hook and web socket?
+
 @ Difference between redux and context api in term of memory and update?
+
 @ when to use useState and useReducer?
 @ redux is the combination of useState, useReducer and content api?
 

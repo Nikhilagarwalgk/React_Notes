@@ -310,9 +310,26 @@ SEACRH for the photos of question by Prabhat?
 
 @ Difference between redux and context api in term of memory and update?
 
+--> ![image](https://github.com/user-attachments/assets/1fad2f45-279e-447d-a711-9b33bb3bba9f)
+
+![image](https://github.com/user-attachments/assets/b1cf76b0-623e-42af-b647-10ad0a23bdd0)
+
+![image](https://github.com/user-attachments/assets/db6432fb-bee7-432e-bb09-48478cbfe51d)
+
+![image](https://github.com/user-attachments/assets/38cbc162-41b9-4af2-9aed-307b988c8f89)
+
+![image](https://github.com/user-attachments/assets/a66cdacb-c6bc-4544-9096-38c90d3ab211)
+
+
+
+
+
+
 @ when to use useState and useReducer?
 
 @ redux is the combination of useState, useReducer and content api?
+
+@ what redux middleware do?
 
 
 

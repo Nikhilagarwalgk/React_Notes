@@ -289,8 +289,21 @@ Tools: lodash.debounce, lodash.throttle.
 
 
 @ why we should not use MUI? How to optimize?
-1. how should be the folder structure of app?
+
+
+@1. how should be the folder structure of app?
 Design Pattern?
+
+--> ![image](https://github.com/user-attachments/assets/3ed347fc-5faa-408e-a1ed-a615d978af04)
+
+![image](https://github.com/user-attachments/assets/643e73ba-a69c-4c36-a57b-2ff00b15834f)
+
+![image](https://github.com/user-attachments/assets/d32c3e55-aa5e-4b48-9d42-bedcebaeaf20)
+
+
+
+
+
 3. Pasing data from child to parrent
 button in parent component, when clicks call function in child component. Data to be shown in parent component?
 4. what is Visual Formatting Model, it happens during layout formation in CRP?

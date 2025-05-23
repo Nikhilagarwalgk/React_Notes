@@ -231,6 +231,8 @@ SEACRH for the photos of question by Prabhat?
 @ Web hooks?
 @ Difference web hook and web socket?
 @ Difference between redux and context api in term of memory and update?
+@ when to use useState and useReducer?
+@ redux is the combination of useState, useReducer and content api?
 
 
 

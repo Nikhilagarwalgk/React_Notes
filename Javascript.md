@@ -7,3 +7,5 @@
    
 3. Event Capturing, delegation and more?
 
+4. Polyfills:- Promise, currying, call, apply, bind, debouncing, throtling?
+

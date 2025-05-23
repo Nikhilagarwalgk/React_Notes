@@ -226,6 +226,11 @@ button in parent component, when clicks call function in child component. Data t
 
 SEACRH for the photos of question by Prabhat?
 
+@ what is different btw utility function Vs hooks?
+@ How useEffect work behind the seen? make using js?
+@ Web hooks?
+@ 
+
 
 
    

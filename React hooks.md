@@ -228,7 +228,66 @@ NOTE:- there are more such attribute as module and async module.
    ![image](https://github.com/user-attachments/assets/8bd424fc-4120-447a-933b-28898addc3cd)
 
 
-2.Optmization in react app?-> lazy load amd more
+2.Optmization in react app?-> lazy load amd more?
+
+--> 🔁 1. Memoization - Memoization is a performance optimization that stores the result of expensive function calls and returns the cached result when the same inputs occur again.
+
+React Tools:
+
+1. React.memo(): Higher Order Component that prevents re-renders if props haven’t changed.
+
+2. useMemo(): Hook to memoize values.
+
+3. useCallback(): Hook to memoize functions.
+
+🔁 2. Code Splitting ->  Use React.lazy() and Suspense to load components only when they are needed.
+
+🧭 3. Virtualization -> Rendering only the visible portion of long lists or tables, instead of the whole list.
+  Virtualization in React refers to a performance optimization technique that improves the rendering efficiency of large lists or grids 
+  by only rendering items that are currently visible in the viewport (plus a small buffer), rather than rendering the entire dataset.
+  Tools:- react-window, react-virtualized.
+
+  🧰 4. Efficient State Management --> Local State: Best for UI state that's only relevant to one component. Global State: For app-wide data. Use libraries carefully. eg :- Zustand, Recoil, or Redux Toolkit with useSelector().
+
+  📦 6. Bundle Optimization --> Reducing the size of your final JavaScript bundle.
+    
+Techniques:-
+   1. Tree Shaking: Remove unused code (ensure you're using ES Modules).
+
+   3. Minification: Using Terser, UglifyJS.
+
+   2. Compression: Serve assets via Brotli or Gzip.
+
+   3. Analysis: Use webpack-bundle-analyzer to inspect what’s in your bundle.
+
+🖼️ 7. Image Optimization:-
+
+-> Techniques:
+
+1. Use modern formats: WebP, AVIF
+
+2. Lazy load images with loading="lazy"
+
+3. Use responsive images with srcSet
+
+4. Compress images with tools like ImageOptim or Squoosh
+
+ 🌍 9. Debouncing and Throttling --> When to Use: Handling user input (search, scroll, resize) that triggers frequent updates.
+
+   -> Techniques:-
+   
+1. Debounce: Wait until user stops typing before triggering an action.
+
+2. Throttle: Trigger an action at most once in a given time period.
+
+Tools: lodash.debounce, lodash.throttle.
+
+
+
+
+
+
+
 @ why we should not use MUI? How to optimize?
 1. how should be the folder structure of app?
 Design Pattern?

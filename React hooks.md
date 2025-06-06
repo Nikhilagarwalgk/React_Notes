@@ -352,6 +352,12 @@ SEACRH for the photos of question by Prabhat?
 
 ![image](https://github.com/user-attachments/assets/56ca310b-b0bc-43b5-81bc-e308a497c305)
 
+@ what are Web Components?
+
+--> Web Components are a set of standardized browser APIs that allow you to create reusable, encapsulated UI elements — like your own custom HTML tags — that work in any framework or plain HTML.
+
+They're a native browser feature, not tied to React, Vue, or Angular.
+
 
 
 

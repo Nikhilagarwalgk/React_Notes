@@ -344,6 +344,17 @@ SEACRH for the photos of question by Prabhat?
 
 @ what redux middleware do?
 
+@What is Server Components in react?
+
+--> Server component are the new way to build modern web app by allowing the component to run on the server, instead of in the browser(Client). So, it increase the performance of the applciation, smaller client-side bundles and improved user experience.
+
+![image](https://github.com/user-attachments/assets/473b320d-983c-4b7e-ace9-68cecaf6f5c0)
+
+![image](https://github.com/user-attachments/assets/56ca310b-b0bc-43b5-81bc-e308a497c305)
+
+
+
+
 
 
    

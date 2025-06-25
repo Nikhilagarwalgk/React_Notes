@@ -134,6 +134,30 @@ When inlining your CSS into the HTML, aim for your total size to be under 14KB. 
   
         NOTE:- https://web.dev/learn/performance/understanding-the-critical-path
 
+@ What are things that block the Critical Rendering Path(CRP)?
+
+-> 
+![image](https://github.com/user-attachments/assets/d8d9cacb-3594-48a0-b2b5-291f59278a25)
+
+![image](https://github.com/user-attachments/assets/308edf23-afbb-400d-984f-ada8d5444229)
+
+![image](https://github.com/user-attachments/assets/943b80f2-4baf-44cd-8774-acb62ce134c1)
+
+![image](https://github.com/user-attachments/assets/260168da-2644-4838-87cd-41b36f62535a)
+
+![image](https://github.com/user-attachments/assets/5c54707c-3dd9-4e70-8db5-889f44386f52)
+
+![image](https://github.com/user-attachments/assets/e129b6e7-bf10-46d4-aafe-cb9555956398)
+
+![image](https://github.com/user-attachments/assets/80f42f4a-7182-4190-83cc-b222ec8671f3)
+
+
+
+
+
+
+
+
 
 
 

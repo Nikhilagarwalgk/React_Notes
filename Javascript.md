@@ -8,4 +8,15 @@
 3. Event Capturing, delegation and more?
 
 4. Polyfills:- Promise, currying, call, apply, bind, debouncing, throtling?
+5. Different abbreviation during page reload:-
+   1. Time to First Byte (TTFB)
+   2. First Contentful Paint (FCP)
+
+3. Largest Contentful Paint (LCP)
+
+4. Total Blocking Time (TBT)
+
+5. Cumulative Layout Shift (CLS)
+
+6. Time to Interactive (TTI
 

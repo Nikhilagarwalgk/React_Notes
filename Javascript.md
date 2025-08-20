@@ -16,3 +16,8 @@
    5. Cumulative Layout Shift (CLS)
    6. Time to Interactive (TTI)
 
+6. Polyfill of Promise?
+   -->
+   <img width="1357" height="602" alt="image" src="https://github.com/user-attachments/assets/b957532a-734e-4ae7-968d-69381f360c8c" />
+
+

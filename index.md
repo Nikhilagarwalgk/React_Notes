@@ -134,6 +134,29 @@ When to use:
 
 <img width="878" height="234" alt="image" src="https://github.com/user-attachments/assets/ca52cf74-ef0d-4702-a72a-60636a7ed6a5" />
 
+@ If we use Error boundary + suspense?
+
+<img width="939" height="294" alt="image" src="https://github.com/user-attachments/assets/63eaef22-35ad-48a6-ad5c-2c67006f7425" />
+
+@ Difference between them?
+
+<img width="899" height="301" alt="image" src="https://github.com/user-attachments/assets/095c6a9e-669c-4e49-a5ec-57451a625c0e" />
+
+@What kind of error does Error Boundary catch and what not?
+
+--> <img width="899" height="404" alt="image" src="https://github.com/user-attachments/assets/9f75df60-973a-48e8-aefe-d8d57395e59f" />
+
+<img width="883" height="465" alt="image" src="https://github.com/user-attachments/assets/7bb38cda-825c-4352-af49-89ebc39c65c6" />
+
+<img width="911" height="336" alt="image" src="https://github.com/user-attachments/assets/c108a882-4ca7-4a85-a73a-02d485b620ce" />
+
+@ To catch those error uncaught by Error Boundaries is catched by Try and catch.
+<img width="864" height="376" alt="image" src="https://github.com/user-attachments/assets/6dbc7e68-501c-4861-8b94-08b58de4cec9" />
+
+
+
+
+
 
 
 

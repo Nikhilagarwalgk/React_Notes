@@ -153,6 +153,32 @@ When to use:
 @ To catch those error uncaught by Error Boundaries is catched by Try and catch.
 <img width="864" height="376" alt="image" src="https://github.com/user-attachments/assets/6dbc7e68-501c-4861-8b94-08b58de4cec9" />
 
+@ To handle different kinds of error that Error boundary doesn't catch is?
+-->
+<img width="907" height="389" alt="image" src="https://github.com/user-attachments/assets/01b2d963-27fd-440f-976c-5215d6d1cdc4" />
+
+<img width="904" height="310" alt="image" src="https://github.com/user-attachments/assets/4f9764c7-a46e-4c0a-9e75-6a52460476db" />
+
+@ What is Tree Shaking in JavaScript/React?
+
+--> Tree shaking is a dead code elimination technique that removes unused code from your final bundle, reducing its size.
+
+<img width="889" height="297" alt="image" src="https://github.com/user-attachments/assets/dde6152a-1688-4db4-8edd-01c732d7060e" />
+
+@ Requirements for Tree Shaking
+
+--> <img width="861" height="455" alt="image" src="https://github.com/user-attachments/assets/f10831c2-5ce7-4f1b-9f6f-eda693312747" />
+
+<img width="875" height="246" alt="image" src="https://github.com/user-attachments/assets/64f8900f-aa76-43fd-8651-0a5518dc044a" />
+
+<img width="873" height="332" alt="image" src="https://github.com/user-attachments/assets/77e00e73-b7e1-4b83-90da-2ff6a3367dbb" />
+
+NOTE:- Tree shaking happens automatically in production builds with modern bundlers (Webpack, Rollup, Vite) - you just need to write your code in a tree-shakeable way!
+
+
+
+
+
 
 
 

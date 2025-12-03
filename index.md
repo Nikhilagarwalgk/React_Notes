@@ -51,6 +51,10 @@ For example, a user typing in an input gets higher priority than a data fetch up
 
 <img width="823" height="263" alt="image" src="https://github.com/user-attachments/assets/76601c91-5e76-43cc-b749-b7bb1bacd443" />
 
+@. Why It Matters?
 
+-->Better perceived performance: High-priority updates (like animations, user input) aren't blocked by low-priority work
+Smoother UI: Long renders can be broken up across frames (targeting 60fps)
+Foundation for modern features: Suspense, Concurrent Mode, useTransition, useDeferredValue all build on Fiber
 
 

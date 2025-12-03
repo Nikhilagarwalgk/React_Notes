@@ -80,6 +80,23 @@ Foundation for modern features: Suspense, Concurrent Mode, useTransition, useDef
 
    <img width="885" height="291" alt="image" src="https://github.com/user-attachments/assets/07375359-0e5b-464a-9e1a-4a3965dbb16f" />
 
+@ What is useLayoutEffect?
+
+--> useLayoutEffect is similar to useEffect, but it fires synchronously after all DOM mutations and before the browser paints the screen.
+When to use:
+
+1. When you need to measure DOM elements (width, height, position)
+2. When you need to make visual changes that must happen before the user sees the screen
+3. Preventing visual flickering
+
+   <img width="867" height="461" alt="image" src="https://github.com/user-attachments/assets/1c5cc0cd-86fd-4958-a36b-b04943de9334" />
+
+   <img width="937" height="471" alt="image" src="https://github.com/user-attachments/assets/d6247c9a-2f4b-4135-ada1-1879a179d857" />
+
+   
+
+
+
 
 
 

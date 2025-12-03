@@ -43,11 +43,14 @@ React maintains two fiber trees:
 2. Work-in-progress tree: Being built during updates
 Once complete, they swap (similar to double buffering in graphics).
 
-5. Priority Levels? 
+@5. Priority Levels? 
 
 --> Fiber introduced update priorities:
 eg:- Immediate → User blocking → Normal → Low → Idle
 For example, a user typing in an input gets higher priority than a data fetch updating a list.
+
+<img width="823" height="263" alt="image" src="https://github.com/user-attachments/assets/76601c91-5e76-43cc-b749-b7bb1bacd443" />
+
 
 
 

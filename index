@@ -1,1 +1,32 @@
 Starting Raect Notes
+
+@ What is React Fiber?
+
+--> React Fiber was introduced in React 16, which was released in September 2017.
+Key Details:-
+
+React Fiber is a complete rewrite of React's core reconciliation algorithm (the process that determines what changes need to be made to the
+DOM).
+The main goals of Fiber were:-
+
+1. Incremental rendering - the ability to split rendering work into chunks and spread it out over multiple frames
+2. Ability to pause, abort, or reuse work as new updates come in
+3. Ability to assign priority to different types of updates
+4. New concurrency primitives (which later evolved into Concurrent Mode features in React 18)
+
+Before Fiber, React used a "stack reconciler" that was synchronous and couldn't be interrupted once it started. This could cause performance
+issues with large component trees.
+
+@ Here, 1. What is Fiber?
+
+--> A "fiber" is a JavaScript object that represents a unit of work. Each fiber corresponds to a React element and contains information about
+the component, its input (props), and its output.
+
+2. Key Architecture Changes:-
+
+Before (Stack Reconciler)   |	After (Fiber)
+Synchronous, blocking       |	Asynchronous, can be interrupted
+All-or-nothing updates	    | Incremental rendering
+No priority system	        | Priority-based updates
+Single call stack           |	Linked list of fibers
+

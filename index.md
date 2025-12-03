@@ -114,6 +114,12 @@ When to use:
 
 <img width="893" height="449" alt="image" src="https://github.com/user-attachments/assets/d20bf184-5ea2-43b1-acfe-54d6ff46e9ae" />
 
+@ What is Suspense?
+
+--> Suspense lets you show a fallback UI while waiting for something to load (lazy components, data fetching).
+
+   
+   
 
 
 

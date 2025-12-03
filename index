@@ -30,3 +30,24 @@ All-or-nothing updates	    | Incremental rendering
 No priority system	        | Priority-based updates
 Single call stack           |	Linked list of fibers
 
+3. Important Concepts?
+
+--> Two Phases of Rendering
+1. Render/Reconciliation Phase (interruptible): React builds the fiber tree, determines changes. No side effects here.
+2. Commit Phase (not interruptible): React applies changes to the DOM. Side effects run here.
+
+4. Double Buffering?
+
+React maintains two fiber trees:
+1. Current tree: What's currently rendered on screen
+2. Work-in-progress tree: Being built during updates
+Once complete, they swap (similar to double buffering in graphics).
+
+5. Priority Levels? 
+
+--> Fiber introduced update priorities:
+eg:- Immediate → User blocking → Normal → Low → Idle
+For example, a user typing in an input gets higher priority than a data fetch updating a list.
+
+
+

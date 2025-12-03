@@ -106,6 +106,15 @@ When to use:
 
    <img width="882" height="265" alt="image" src="https://github.com/user-attachments/assets/668109c5-7d0d-4b54-8b6f-26a6a644793b" />
 
+@ what is Code Splitting in React?
+
+-->Code splitting is a technique to split your JavaScript bundle into smaller chunks that load on demand, improving initial load time
+
+<img width="912" height="348" alt="image" src="https://github.com/user-attachments/assets/5d6ff0d2-96dc-4dc1-80a0-73d3a93b65dc" />
+
+<img width="893" height="449" alt="image" src="https://github.com/user-attachments/assets/d20bf184-5ea2-43b1-acfe-54d6ff46e9ae" />
+
+
 
 
    

@@ -74,6 +74,15 @@ Foundation for modern features: Suspense, Concurrent Mode, useTransition, useDef
 2. Expose custom methods instead of raw DOM access
 3. Encapsulation - hide internal implementation details
 
+   <img width="868" height="352" alt="image" src="https://github.com/user-attachments/assets/05afe13e-5fda-4007-84a3-1c0ff622313f" />
+
+   <img width="884" height="248" alt="image" src="https://github.com/user-attachments/assets/c8f236f3-b445-4afb-b5c3-fe75fb2c5e01" />
+
+   <img width="885" height="291" alt="image" src="https://github.com/user-attachments/assets/07375359-0e5b-464a-9e1a-4a3965dbb16f" />
+
+
+
+
 
 
 

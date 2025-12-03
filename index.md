@@ -118,6 +118,27 @@ When to use:
 
 --> Suspense lets you show a fallback UI while waiting for something to load (lazy components, data fetching).
 
+<img width="894" height="246" alt="image" src="https://github.com/user-attachments/assets/9f013e2e-1837-4386-90af-b13a946e918b" />
+
+<img width="882" height="375" alt="image" src="https://github.com/user-attachments/assets/64713bc9-cc8e-4f79-8786-9c895cd7e20b" />
+
+<img width="853" height="458" alt="image" src="https://github.com/user-attachments/assets/c842062a-ac60-40fc-9b0c-76b9a48a48ed" />
+
+@ what is Error Boundary?
+
+--> Error Boundaries catch JavaScript errors in child components and display a fallback UI instead of crashing the app.
+
+<img width="876" height="463" alt="image" src="https://github.com/user-attachments/assets/29aeec56-cada-48b8-b24f-604c44334c09" />
+
+<img width="910" height="416" alt="image" src="https://github.com/user-attachments/assets/141a45be-45de-4cf3-b364-7fe4784fa233" />
+
+<img width="878" height="234" alt="image" src="https://github.com/user-attachments/assets/ca52cf74-ef0d-4702-a72a-60636a7ed6a5" />
+
+
+
+
+
+
 
 
    

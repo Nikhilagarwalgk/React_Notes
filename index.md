@@ -57,4 +57,24 @@ For example, a user typing in an input gets higher priority than a data fetch up
 Smoother UI: Long renders can be broken up across frames (targeting 60fps)
 Foundation for modern features: Suspense, Concurrent Mode, useTransition, useDeferredValue all build on Fiber
 
+@. What is ForwardRef?
+-->
+
+<img width="876" height="145" alt="image" src="https://github.com/user-attachments/assets/1a72567a-7d8d-4285-bff5-6fdb7db9a755" />
+
+<img width="901" height="411" alt="image" src="https://github.com/user-attachments/assets/a5d40bc4-38ba-4094-a528-9c91d2eea431" />
+
+@ What is useImperativeHandle ? 
+
+--> useImperativeHandle is used with forwardRef to customize what the parent can access via the ref. Instead of exposing the entire DOM element, you can expose only specific methods.
+
+@Why is it needed?
+
+1. Control what the parent can do with the ref
+2. Expose custom methods instead of raw DOM access
+3. Encapsulation - hide internal implementation details
+
+
+
+
 

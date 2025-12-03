@@ -93,6 +93,21 @@ When to use:
 
    <img width="937" height="471" alt="image" src="https://github.com/user-attachments/assets/d6247c9a-2f4b-4135-ada1-1879a179d857" />
 
+@ What is useTransition hook?
+
+--> useTransition is used to mark state updates as non-urgent/low priority, allowing the UI to remain responsive during expensive updates.
+When to use:
+
+1. Large list filtering/searching
+2. Tab switching with heavy content
+3. Any state update that causes slow re-renders
+
+   <img width="844" height="413" alt="image" src="https://github.com/user-attachments/assets/7162efb1-fbf8-4c67-8d04-79eac4e7bfed" />
+
+   <img width="882" height="265" alt="image" src="https://github.com/user-attachments/assets/668109c5-7d0d-4b54-8b6f-26a6a644793b" />
+
+
+
    
 
 

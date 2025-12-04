@@ -49,3 +49,4 @@ Once we call a request, we have data. But if again we need the same data we call
 @ Frontend Question:- Select the grid box randomly and at last they should be deselected automatcally in backward sequence in which they were selected.
 @ How JSX is excuted?
 @ How CSS is exucuted, both inline and css file?
+@ what is CSS, SCSS, LESS etc ?

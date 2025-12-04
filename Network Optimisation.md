@@ -31,6 +31,14 @@ eg. Content-Encoding: gzip
 2. Brotli
 Brotli is a newer compression algorithm by Google (2015), offering better compression ratios.
 
+eg. Content-Encoding: br
+
+<img width="840" height="241" alt="image" src="https://github.com/user-attachments/assets/84832675-2af8-43d8-a2dc-f242ceb7932c" />
+
+<img width="851" height="435" alt="image" src="https://github.com/user-attachments/assets/3ff0193d-f891-4fff-91ea-9e86b62db332" />
+
+
+
 
 
 @ Caching:-

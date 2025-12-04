@@ -183,7 +183,20 @@ NOTE:- Tree shaking happens automatically in production builds with modern bundl
 
 <img width="841" height="468" alt="image" src="https://github.com/user-attachments/assets/d283e5d8-3263-4eb2-9253-8259b9e306a7" />
 
-So, here it uses useTransition hook for non-urgent update.   
+So, here it uses useTransition hook for non-urgent update.  
+
+@ What is useDeferredValue in React?
+
+--> useDeferredValue is a React 18 hook that lets you defer updating a part of the UI to keep it responsive. It creates a "deferred" version of a value that lags behind the original.
+
+Basic Syntax:-
+const deferredValue = useDeferredValue(value);
+ - Input: Any value (string, number, object, etc.)
+ - Output: A deferred copy that may lag behind during updates
+
+<img width="840" height="383" alt="image" src="https://github.com/user-attachments/assets/112bcc11-f9f4-4860-a70d-e9b5d6a9c999" />
+
+
 
 
 

@@ -17,14 +17,21 @@
 <img width="838" height="325" alt="image" src="https://github.com/user-attachments/assets/57bc82b5-7fdf-4a8d-aeff-bec4adce2ecf" />
 
 
-
-
-
-
 @ A browser can handle 6-7 parallel request at a time.
 
-@Compression - brotli/gzip?
---> Run at runtime and build time.
+@Brotli & Gzip - Compression Algorithms? 
+--> Brotli and Gzip are compression algorithms used to reduce the size of files (HTML, CSS, JS, JSON) sent over the network, making websites load faster.
+
+<img width="865" height="227" alt="image" src="https://github.com/user-attachments/assets/f353e033-3024-4d31-b406-bfa6c4f8e89d" />
+
+1. Gzip
+Gzip is the older, widely-supported compression algorithm (since 1992).
+eg. Content-Encoding: gzip
+
+2. Brotli
+Brotli is a newer compression algorithm by Google (2015), offering better compression ratios.
+
+
 
 @ Caching:-
 -> Cache policy (cache-control, expire etag, last-modifier)

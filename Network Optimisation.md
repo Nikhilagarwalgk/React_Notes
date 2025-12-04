@@ -38,9 +38,6 @@ eg. Content-Encoding: br
 <img width="851" height="435" alt="image" src="https://github.com/user-attachments/assets/3ff0193d-f891-4fff-91ea-9e86b62db332" />
 
 
-
-
-
 @ Caching:-
 -> Cache policy (cache-control, expire etag, last-modifier)
 
@@ -48,3 +45,7 @@ Once we call a request, we have data. But if again we need the same data we call
 
 @ What is service worker?
 -->
+
+@ Frontend Question:- Select the grid box randomly and at last they should be deselected automatcally in backward sequence in which they were selected.
+@ How JSX is excuted?
+@ How CSS is exucuted, both inline and css file?

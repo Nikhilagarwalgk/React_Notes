@@ -196,6 +196,13 @@ const deferredValue = useDeferredValue(value);
 
 <img width="840" height="383" alt="image" src="https://github.com/user-attachments/assets/112bcc11-f9f4-4860-a70d-e9b5d6a9c999" />
 
+@ What is Automatic Batching in React?
+
+--> Automatic Batching is a React 18 feature that groups multiple state updates into a single re-render for better performance.
+
+<img width="848" height="295" alt="image" src="https://github.com/user-attachments/assets/81492e52-99ed-403f-846f-17b5e6b6f0ba" />
+
+
 
 
 

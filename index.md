@@ -175,6 +175,18 @@ When to use:
 
 NOTE:- Tree shaking happens automatically in production builds with modern bundlers (Webpack, Rollup, Vite) - you just need to write your code in a tree-shakeable way!
 
+@ What is Concurrent Rendering in React?
+
+--> Concurrent Rendering is a feature introduced in React 18 that allows React to interrupt, pause, and resume rendering to keep the UI responsive.
+
+<img width="915" height="347" alt="image" src="https://github.com/user-attachments/assets/17cc9020-86f2-4843-ad60-0dcc44bc4153" />
+
+<img width="841" height="468" alt="image" src="https://github.com/user-attachments/assets/d283e5d8-3263-4eb2-9253-8259b9e306a7" />
+
+So, here it uses useTransition hook for non-urgent update.   
+
+
+
 
 
 

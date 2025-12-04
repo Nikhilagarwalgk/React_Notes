@@ -1,4 +1,4 @@
-@ Eary Hint?
+@ Early Hints (HTTP 103) in Networking?
 
 -> It gives hint for preload, prefetch, preconnect, ddns-prefetch.
 

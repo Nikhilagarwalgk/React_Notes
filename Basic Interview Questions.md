@@ -82,7 +82,23 @@ Preflight is a browser security feature — it protects users but requires prope
 <img width="870" height="450" alt="image" src="https://github.com/user-attachments/assets/2bcb5786-699f-4074-af80-ac89cba2f45f" />
 <img width="896" height="454" alt="image" src="https://github.com/user-attachments/assets/2baa0553-da56-416c-8b39-10f1277a3cf3" />
 
+@9. How Rendering happends in React for Parent to child component?
+-->Understanding the order of console.log statements in React helps you understand the component lifecycle.
+<img width="858" height="434" alt="image" src="https://github.com/user-attachments/assets/e6ba3413-d97a-4bb7-9878-81b8d4c30dde" />
+<img width="879" height="432" alt="image" src="https://github.com/user-attachments/assets/48bd02e8-6ee1-45be-85c5-d8cfb6291eb6" />
+<img width="838" height="220" alt="image" src="https://github.com/user-attachments/assets/75e8fcee-b9e0-4759-bbac-e872edb405cd" />
+<img width="909" height="460" alt="image" src="https://github.com/user-attachments/assets/f15c348c-ad0c-4b1b-9e28-a775d710e214" />
+<img width="878" height="359" alt="image" src="https://github.com/user-attachments/assets/d6562dec-4bc2-4539-9ed4-4d02c6e822b2" />
+<img width="859" height="420" alt="image" src="https://github.com/user-attachments/assets/e5c0e39d-7db2-4d06-a065-097e0377cbf6" />
+<img width="861" height="311" alt="image" src="https://github.com/user-attachments/assets/65de69c4-4fc9-42bc-aae4-96fc6b6d3170" />
+<img width="878" height="360" alt="image" src="https://github.com/user-attachments/assets/c57caa3d-b71b-435b-9907-a52de26d99eb" />
+<img width="890" height="178" alt="image" src="https://github.com/user-attachments/assets/cc8e946c-edc5-486c-915f-41e36b2de11d" />
+<img width="855" height="428" alt="image" src="https://github.com/user-attachments/assets/ae66c832-31f0-4b97-a86a-4fc4cfd589ca" />
+<img width="869" height="414" alt="image" src="https://github.com/user-attachments/assets/82834c19-b54f-4de6-9c7c-90150885839a" />
+<img width="828" height="415" alt="image" src="https://github.com/user-attachments/assets/2312cca4-4637-44c5-97b9-cc6e030193a7" />
+<img width="886" height="432" alt="image" src="https://github.com/user-attachments/assets/fcb89b9f-2439-4d18-b8ce-29d0d162efca" />
 
+@ What is Redux, Redux Thunk, Redux Saga?
 
 
 

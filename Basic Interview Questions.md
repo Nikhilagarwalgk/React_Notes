@@ -8,6 +8,23 @@
 
 <img width="887" height="342" alt="image" src="https://github.com/user-attachments/assets/7c7d4fb5-7dd3-43cc-ac18-2b241e41b32e" />
 
+@3. what are Axios Interceptors?
+
+--> Interceptors are functions that Axios calls before a request is sent or after a response is received. They act as middleware, allowing you to modify requests/responses globally.
+
+<img width="513" height="270" alt="image" src="https://github.com/user-attachments/assets/83504999-8f4e-4487-b126-2f2134f95520" />
+
+When we add something in request of axios:-
+<img width="643" height="288" alt="image" src="https://github.com/user-attachments/assets/442ef3e0-6ef5-40ee-9bde-af061bdfcc91" />
+
+<img width="649" height="450" alt="image" src="https://github.com/user-attachments/assets/cb6746fe-3d8f-49f7-b49f-5b3255f47068" />
+
+When we add function on response:-
+<img width="638" height="256" alt="image" src="https://github.com/user-attachments/assets/bdf7f88d-fcb7-4f78-829f-988ae6fce933" />
+
+<img width="639" height="307" alt="image" src="https://github.com/user-attachments/assets/e7fc5fb0-fff8-4aff-88f6-4ed599fe173a" />
+
+<img width="641" height="200" alt="image" src="https://github.com/user-attachments/assets/ed48d1c5-145d-413d-9ca4-2fa83434cf5b" />
 
 @3. Why we parse data from the API?
 

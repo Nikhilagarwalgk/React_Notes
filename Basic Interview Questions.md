@@ -26,12 +26,37 @@ When we add function on response:-
 
 <img width="641" height="200" alt="image" src="https://github.com/user-attachments/assets/ed48d1c5-145d-413d-9ca4-2fa83434cf5b" />
 
-@3. Why we parse data from the API?
+@ All API methods?
+
+--> <img width="859" height="448" alt="image" src="https://github.com/user-attachments/assets/39418e1a-98ba-4667-bb55-903e843dad2d" />
+
+@ What is CORS in browser?
+
+--> CORS (Cross-Origin Resource Sharing) is a browser security feature that controls which websites are allowed to request resources from another website.
+
+<img width="806" height="409" alt="image" src="https://github.com/user-attachments/assets/2767f830-9053-4062-ae22-896a65d0686f" />
+
+<img width="864" height="207" alt="image" src="https://github.com/user-attachments/assets/410a0773-002f-4d97-b1e5-e9a18ba2c128" />
+
+@ Preflight Request in API calling?
+
+--> A Preflight Request is an automatic OPTIONS request that browsers send before the actual request to check if the server allows the cross-origin request.
+
+<img width="750" height="271" alt="image" src="https://github.com/user-attachments/assets/b5cccd2c-e1cf-4dae-8001-e5af5ae8129c" />
+
+<img width="756" height="372" alt="image" src="https://github.com/user-attachments/assets/12fe37dd-5b13-4f33-82bf-2f6a59e34ac7" />
+
+Preflight is a browser security feature — it protects users but requires proper server configuration for cross-origin APIs
+
+
+
+
+@40. Why we parse data from the API?
 
 --> Because we get data in JSON format, and to make it usable we have to parse.
 eg. res.json()
 
-@4. 
+@1. 
 
 
 

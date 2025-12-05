@@ -70,6 +70,19 @@ Preflight is a browser security feature — it protects users but requires prope
 -->
 <img width="853" height="450" alt="image" src="https://github.com/user-attachments/assets/c2e9e0ab-80b4-4d45-86d9-46c3c3bb6a3c" />
 <img width="880" height="388" alt="image" src="https://github.com/user-attachments/assets/d0cc1105-2350-4257-a8ee-e5d9095e782c" />
+<img width="943" height="198" alt="image" src="https://github.com/user-attachments/assets/22ecf2cd-d0aa-497a-b4d2-63c07d11a3ff" />
+<img width="849" height="350" alt="image" src="https://github.com/user-attachments/assets/6e57fc00-e2ef-4fe5-b7d5-f33c15fb5696" />
+<img width="855" height="380" alt="image" src="https://github.com/user-attachments/assets/3479006e-4046-4432-ab46-d31c70ed402b" />
+<img width="845" height="242" alt="image" src="https://github.com/user-attachments/assets/f91b9a2b-e639-406f-9c88-ca4325e32fef" />
+<img width="851" height="426" alt="image" src="https://github.com/user-attachments/assets/5db4f9a8-6ec3-44cd-b678-297dd8582200" />
+<img width="849" height="419" alt="image" src="https://github.com/user-attachments/assets/57e647f1-b5af-41d6-9b92-1bcb1327f70e" />
+<img width="855" height="281" alt="image" src="https://github.com/user-attachments/assets/11068f90-81d7-4723-815e-9781783b4a7c" />
+<img width="921" height="369" alt="image" src="https://github.com/user-attachments/assets/8c26e6ab-b92b-4837-bdc7-9132668d1344" />
+<img width="883" height="368" alt="image" src="https://github.com/user-attachments/assets/b83897c6-a43a-42a2-aa20-39ca393cf90d" />
+<img width="870" height="450" alt="image" src="https://github.com/user-attachments/assets/2bcb5786-699f-4074-af80-ac89cba2f45f" />
+<img width="896" height="454" alt="image" src="https://github.com/user-attachments/assets/2baa0553-da56-416c-8b39-10f1277a3cf3" />
+
+
 
 
 

@@ -26,11 +26,11 @@ When we add function on response:-
 
 <img width="641" height="200" alt="image" src="https://github.com/user-attachments/assets/ed48d1c5-145d-413d-9ca4-2fa83434cf5b" />
 
-@ All API methods?
+@4. All API methods?
 
 --> <img width="859" height="448" alt="image" src="https://github.com/user-attachments/assets/39418e1a-98ba-4667-bb55-903e843dad2d" />
 
-@ What is CORS in browser?
+@5. What is CORS in browser?
 
 --> CORS (Cross-Origin Resource Sharing) is a browser security feature that controls which websites are allowed to request resources from another website.
 
@@ -38,7 +38,7 @@ When we add function on response:-
 
 <img width="864" height="207" alt="image" src="https://github.com/user-attachments/assets/410a0773-002f-4d97-b1e5-e9a18ba2c128" />
 
-@ Preflight Request in API calling?
+@6. Preflight Request in API calling?
 
 --> A Preflight Request is an automatic OPTIONS request that browsers send before the actual request to check if the server allows the cross-origin request.
 
@@ -47,6 +47,37 @@ When we add function on response:-
 <img width="756" height="372" alt="image" src="https://github.com/user-attachments/assets/12fe37dd-5b13-4f33-82bf-2f6a59e34ac7" />
 
 Preflight is a browser security feature — it protects users but requires proper server configuration for cross-origin APIs
+
+@7. JavaScript Hoisting ?
+
+--> Hoisting is JavaScript's default behavior of moving declarations to the top of their scope during the compilation phase, before code execution.
+
+<img width="861" height="411" alt="image" src="https://github.com/user-attachments/assets/b03657cc-9630-4258-bf82-50f05916b05e" />
+
+<img width="868" height="408" alt="image" src="https://github.com/user-attachments/assets/65f82bbf-2503-4cb3-a076-b6a887ba3596" />
+<img width="945" height="341" alt="image" src="https://github.com/user-attachments/assets/e8db858a-9eb4-40ba-9777-2ea1cb215e05" />
+<img width="884" height="341" alt="image" src="https://github.com/user-attachments/assets/bfc0bf39-1b09-4a1c-8ad2-1974c4f2db8b" />
+<img width="884" height="163" alt="image" src="https://github.com/user-attachments/assets/35cd791f-0577-4573-82d9-a19c4969399d" />
+<img width="867" height="461" alt="image" src="https://github.com/user-attachments/assets/3edf77b2-f353-4ca8-ad22-83ab340083c4" />
+<img width="852" height="229" alt="image" src="https://github.com/user-attachments/assets/a0cfa97c-287d-4ef6-b185-05e4815124d9" />
+<img width="865" height="381" alt="image" src="https://github.com/user-attachments/assets/f952c1de-86b1-4479-9371-1c5b332b792a" />
+<img width="862" height="404" alt="image" src="https://github.com/user-attachments/assets/7d695155-4a08-429b-9fd2-ca7981c9f23d" />
+<img width="846" height="254" alt="image" src="https://github.com/user-attachments/assets/fc8466d4-c760-458b-80fb-a78d2bebce93" />
+<img width="828" height="231" alt="image" src="https://github.com/user-attachments/assets/126cc6ff-8166-4235-a8fa-dfea986cec5a" />
+
+@8. Important Output question on hoisting?
+
+-->
+<img width="853" height="450" alt="image" src="https://github.com/user-attachments/assets/c2e9e0ab-80b4-4d45-86d9-46c3c3bb6a3c" />
+<img width="880" height="388" alt="image" src="https://github.com/user-attachments/assets/d0cc1105-2350-4257-a8ee-e5d9095e782c" />
+
+
+
+
+
+
+
+
 
 
 

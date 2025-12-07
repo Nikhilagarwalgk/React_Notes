@@ -99,6 +99,15 @@ Preflight is a browser security feature — it protects users but requires prope
 <img width="886" height="432" alt="image" src="https://github.com/user-attachments/assets/fcb89b9f-2439-4d18-b8ce-29d0d162efca" />
 
 @ What is Redux, Redux Thunk, Redux Saga?
+@ React Portal?
+@Garbage Collection or memory in js?
+@ Composition in js?
+@ How useEffect work inside map loop or a component?
+@ React batching?
+@ what are side effect in react?
+@ react form hook and formik?
+@ Log out from one application open in 3 tabs, will other two logout. How to achieve this in frontend?
+@ Add data in local storage, will other tab refelct the data with out refresh?
 
 
 

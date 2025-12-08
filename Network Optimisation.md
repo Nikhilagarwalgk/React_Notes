@@ -72,9 +72,26 @@ Cache Storage is a browser API that stores request–response pairs to improve p
 Mostly the change is from backend in server header, if we want to change something intentionally then we can use cache code for that.
 
 @ What is service worker?
--->
+--> A Service Worker is a special type of JavaScript file that runs in the browser separately from a web page. It acts as a programmable network proxy between the web page and the internet, giving websites capabilities like offline access, background syncing, and push notifications.
+
+<img width="827" height="297" alt="image" src="https://github.com/user-attachments/assets/44bb9914-807c-449c-b50f-11ee063088e5" />
+
+
+Think of it as a background worker for your website.
 
 @ Frontend Question:- Select the grid box randomly and at last they should be deselected automatcally in backward sequence in which they were selected.
+
 @ How JSX is excuted?
+--> React uses tools like Babel to transform JSX into regular JavaScript.
+In a React project, Babel is not included automatically with Webpack. It is usually installed as a separate library, even if you are using Webpack for bundling. Sometime we don't babel in dev dependencies then its integrated with webpack in webpack.config.js  .
+
 @ How CSS is exucuted, both inline and css file?
+--> Normal css file is directly loaded from bundle and loaded, parsed then coverted om CSSOM etc.
+<img width="675" height="467" alt="image" src="https://github.com/user-attachments/assets/f874c07a-7226-4285-ab20-335dac242a59" />
+
+When it comes to in-line CSS then React comes into picture,
+<img width="824" height="505" alt="image" src="https://github.com/user-attachments/assets/1ce4b6a5-35d5-4e0d-93e8-a49bfd9778ee" />
+<img width="729" height="342" alt="image" src="https://github.com/user-attachments/assets/89552273-4a1f-4254-952d-25ee36d31d77" />
+
+
 @ what is CSS, SCSS, LESS etc ?

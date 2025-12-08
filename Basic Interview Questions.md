@@ -133,3 +133,5 @@ eg. res.json()
 
 [Interview questions - Steerwise UI Engineer.pdf](https://github.com/user-attachments/files/24036583/Interview.questions.-.Steerwise.UI.Engineer.pdf)
 
+@ Portals, prfilers and strict mode in react?
+

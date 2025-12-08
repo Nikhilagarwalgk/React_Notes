@@ -39,9 +39,30 @@ eg. Content-Encoding: br
 
 
 @ Caching:-
--> Cache policy (cache-control, expire etag, last-modifier)
+-> Cache policy (cache-control, expire etag, last-modifier). Browser cache memory is a storage area where your web browser saves copies of files from websites you visit. Its main purpose is to make websites load faster and reduce data usage.
 
-Once we call a request, we have data. But if again we need the same data we call network then it will give the data from the cache.
+Typical cached items include:- HTML pages, Images (logos, photos), CSS stylesheets, JavaScript files, Fonts, Videos or thumbnails.
+
+These are saved so that the browser doesn’t have to download them again on your next visit.
+ As you visit a website.
+
+1. The browser downloads needed files and stores them in cache.
+
+2. The next time you open the same site, the browser checks:
+
+3. If cached files are still valid (based on expiry rules set by the website).
+
+4. If valid, it loads them from your device instead of the internet → much faster.
+   <img width="688" height="229" alt="image" src="https://github.com/user-attachments/assets/e33ee160-73c1-4564-8814-80d8ddd23562" />
+   <img width="528" height="227" alt="image" src="https://github.com/user-attachments/assets/9dc3de02-0542-4a3b-92b6-b302792d978e" />
+   <img width="537" height="288" alt="image" src="https://github.com/user-attachments/assets/96b2e897-6fee-4c69-80f8-de29b2d8e383" />
+    <img width="542" height="170" alt="image" src="https://github.com/user-attachments/assets/60ccdbb6-cbb6-4514-9b23-d33ea0e3091f" />
+Cache Storage is a browser API that stores request–response pairs to improve performance and support offline functionality
+
+  <img width="870" height="332" alt="image" src="https://github.com/user-attachments/assets/31aa0d18-d4cb-45d4-af1d-5f22c22ccb9a" />
+
+
+@ Once we call a request, we have data. But if again we need the same data we call network then it will give the data from the cache.
 
 @ What is service worker?
 -->

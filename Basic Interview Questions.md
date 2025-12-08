@@ -114,7 +114,7 @@ Preflight is a browser security feature — it protects users but requires prope
 
 Deep Merge :-  That merges the full object.
 
-
+@ Exactly what is compared in vitual and real DOM?
 
 
 

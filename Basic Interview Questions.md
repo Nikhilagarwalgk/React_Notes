@@ -100,7 +100,7 @@ Preflight is a browser security feature — it protects users but requires prope
 
 @ What is Redux, Redux Thunk, Redux Saga?
 @ React Portal?
-@Garbage Collection or memory in js?
+@ Garbage Collection or memory in js?
 @ Composition in js?
 @ How useEffect work inside map loop or a component?
 @ React batching?
@@ -109,7 +109,10 @@ Preflight is a browser security feature — it protects users but requires prope
 @ Log out from one application open in 3 tabs, will other two logout. How to achieve this in frontend?
 @ Add data in local storage, will other tab refelct the data with out refresh?
 
+@ When we update object state in functional compooent then we have to desctructure the object, but in class we do't have to destructure the state. why?
+--> Because functional react treat each state separately but the class component is storing evry thing in a single object. When we update the class state then they do shallow merging, means only update the given key and keep the rest value as it is.
 
+Deep Merge :-  That merges the full object.
 
 
 

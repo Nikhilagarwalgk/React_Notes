@@ -63,6 +63,13 @@ Cache Storage is a browser API that stores request–response pairs to improve p
 
 
 @ Once we call a request, we have data. But if again we need the same data we call network then it will give the data from the cache.
+--> Yes, the browser cache the response data and if again call that API or website it first checks the cache data. If its there then its uses it else call the API. There are ways to control cache from frontend as
+* fetch(url, { cache: "no-store" }); // Don't store cache
+* fetch(url, { cache: "default" }); // use cache
+* fetch(url, { cache: "no-cache" }); // Validate before use
+  <img width="906" height="388" alt="image" src="https://github.com/user-attachments/assets/8c11d7ea-0299-4c70-b270-cfb577fe1f7f" />
+
+Mostly the change is from backend in server header, if we want to change something intentionally then we can use cache code for that.
 
 @ What is service worker?
 -->

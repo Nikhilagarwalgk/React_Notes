@@ -135,3 +135,42 @@ eg. res.json()
 
 @ Portals, prfilers and strict mode in react?
 
+@ What is Normalisation of data?
+--> In frontend development, normalisation usually refers to data normalization—structuring incoming data so it's easier to use in UI code.
+👉 Frontend normalization = structuring data to be flat, predictable, and easy to manage.
+<img width="720" height="193" alt="image" src="https://github.com/user-attachments/assets/da2b9fd8-7045-4982-8969-60f7693fdfa5" />
+<img width="744" height="362" alt="image" src="https://github.com/user-attachments/assets/8aaf823e-d488-4361-93eb-15a930317e7e" />
+<img width="849" height="252" alt="image" src="https://github.com/user-attachments/assets/5d0580a9-94c5-4e37-8408-520f17cd7689" />
+<img width="786" height="363" alt="image" src="https://github.com/user-attachments/assets/ca3b709e-c609-4cb5-aea3-eec5d21f66ee" />
+
+✅ Benefits of Normalization:-
+
+1. Single Source of Truth
+2. O(1) Lookups (Instant Access)
+3. Easy Updates (No Deep Cloning)
+4. Easier Querying
+5. Better Performance with React/Redux
+
+   <img width="856" height="251" alt="image" src="https://github.com/user-attachments/assets/b82a8fd0-e802-4e1a-ac6b-070a8fd2516d" />
+   <img width="358" height="312" alt="image" src="https://github.com/user-attachments/assets/c86fe923-f120-41b7-acc8-97020252be23" />
+
+@ What is Service Worker and What is Web Worker?
+--> Web Worker -
+A Web Worker is a script that runs in a background thread, allowing you to perform heavy computations without blocking the UI.
+<img width="745" height="248" alt="image" src="https://github.com/user-attachments/assets/6a63d9d7-f8a9-493f-812d-d08b86101dd8" />
+<img width="751" height="513" alt="image" src="https://github.com/user-attachments/assets/bbfd6ba4-2df0-4e55-8bc5-c696f48b2119" />
+<img width="848" height="176" alt="image" src="https://github.com/user-attachments/assets/225a9ee7-17ed-45dc-9aa1-b166b9dda23a" />
+
+🟢 Service Worker
+A Service Worker is a proxy that sits between your web app and the network. It enables offline functionality, push notifications, and background sync.
+
+<img width="840" height="267" alt="image" src="https://github.com/user-attachments/assets/8bd2b3c0-1c75-416b-81a5-75bc9c88b53c" />
+<img width="826" height="168" alt="image" src="https://github.com/user-attachments/assets/8e35f3d8-d291-43de-9200-50d989de3622" />
+<img width="873" height="415" alt="image" src="https://github.com/user-attachments/assets/ab906e55-f5a5-41b6-8d48-539acd583008" />
+
+
+
+
+
+
+

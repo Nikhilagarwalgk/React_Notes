@@ -40,6 +40,11 @@ See from a video lecture.
 We can anything as argument as callback or condition.
 
 @React Polifill:-
+1. useState:-
+   <img width="818" height="507" alt="image" src="https://github.com/user-attachments/assets/136fb0be-d584-4682-8d81-37a512658775" />
+   <img width="843" height="458" alt="image" src="https://github.com/user-attachments/assets/88e36a4a-8c8f-432d-9d0d-a7e384c53978" />
+
+
 
 @ Currying Polifill
 @ Closure Polifill

@@ -29,3 +29,8 @@ for(let i=0; i< data.length; i++){
 For map:-
 <img width="1366" height="461" alt="image" src="https://github.com/user-attachments/assets/07791aaf-626e-4abb-8238-2bc4e6833374" />
 
+For Filter:-
+<img width="1366" height="543" alt="image" src="https://github.com/user-attachments/assets/67fbaf98-b313-45f9-ab08-d6c82ac8bc9b" />
+
+We can anything as argument as callback or condition.
+

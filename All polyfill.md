@@ -26,3 +26,6 @@ for(let i=0; i< data.length; i++){
 
 <img width="1366" height="538" alt="image" src="https://github.com/user-attachments/assets/dd8f2c6e-91a9-4334-b6bb-913ce272e16e" />
 
+For map:-
+<img width="1366" height="461" alt="image" src="https://github.com/user-attachments/assets/07791aaf-626e-4abb-8238-2bc4e6833374" />
+

@@ -26,16 +26,23 @@ for(let i=0; i< data.length; i++){
 
 <img width="1366" height="538" alt="image" src="https://github.com/user-attachments/assets/dd8f2c6e-91a9-4334-b6bb-913ce272e16e" />
 
-For map:-
+1. For map:-
 <img width="1366" height="461" alt="image" src="https://github.com/user-attachments/assets/07791aaf-626e-4abb-8238-2bc4e6833374" />
 <img width="812" height="512" alt="image" src="https://github.com/user-attachments/assets/e0da0c02-2e58-4005-8ba5-442384d0f886" />
 
 
-For Filter:-
+2. For Filter:-
 <img width="1366" height="543" alt="image" src="https://github.com/user-attachments/assets/67fbaf98-b313-45f9-ab08-d6c82ac8bc9b" />
 <img width="824" height="493" alt="image" src="https://github.com/user-attachments/assets/0a0430a8-4359-4a52-97e9-50bf9e902c5b" />
 
-For Reducer:-
+3. For Reducer:-
 See from a video lecture.
 We can anything as argument as callback or condition.
+
+@React Polifill:-
+
+@ Currying Polifill
+@ Closure Polifill
+@ Promises and its attributes.
+
 

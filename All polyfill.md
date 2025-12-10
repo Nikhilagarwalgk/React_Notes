@@ -35,6 +35,7 @@ For Filter:-
 <img width="1366" height="543" alt="image" src="https://github.com/user-attachments/assets/67fbaf98-b313-45f9-ab08-d6c82ac8bc9b" />
 <img width="824" height="493" alt="image" src="https://github.com/user-attachments/assets/0a0430a8-4359-4a52-97e9-50bf9e902c5b" />
 
-
+For Reducer:-
+See from a video lecture.
 We can anything as argument as callback or condition.
 

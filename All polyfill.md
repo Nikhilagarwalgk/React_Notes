@@ -50,5 +50,24 @@ We can anything as argument as callback or condition.
 @ Currying Polifill
 @ Closure Polifill
 @ Promises and its attributes.
+@. All Status code of API:
+400
+401
+402
+403
+etc
+5. Two-way Binding in Angular or js
+6. Access token, refresh-token, expire time
+7. 
+
+@ Show second highest count character in a sentence
+
+@ SHow button add, start, reset
+
+on add, add a bar in row
+on start, start filling it with green color
+ and at one time only three bars should be filling the bar
+one bar should take 2 sec to fill
+
 
 

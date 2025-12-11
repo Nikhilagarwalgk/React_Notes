@@ -69,5 +69,7 @@ on start, start filling it with green color
  and at one time only three bars should be filling the bar
 one bar should take 2 sec to fill
 
+@ How to iterate through a number in react?
+
 
 

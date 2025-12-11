@@ -73,6 +73,7 @@ on start, start filling it with green color
 one bar should take 2 sec to fill
 
 @ How to iterate through a number in react?
+@ What Client side Rendering (CSR), Server side rendering (SSR), Static side rendering ( SSR), React Server component (RSR)?
 
 
 

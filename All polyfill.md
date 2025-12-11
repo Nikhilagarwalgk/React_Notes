@@ -47,7 +47,10 @@ We can anything as argument as callback or condition.
 
 
 
-@ Currying Polifill
+@ Currying Polifill:-
+
+<img width="1366" height="537" alt="image" src="https://github.com/user-attachments/assets/d98462e7-9e0d-4e3b-9cff-e727dd36d161" />
+
 @ Closure Polifill
 @ Promises and its attributes.
 @. All Status code of API:

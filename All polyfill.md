@@ -101,6 +101,26 @@ Here, Concept of Hydration comes into picture.
 <img width="618" height="513" alt="image" src="https://github.com/user-attachments/assets/63d65586-c516-4081-8af2-bdb700b686e3" />
 <img width="616" height="415" alt="image" src="https://github.com/user-attachments/assets/935011d2-fe0c-4694-aacc-ed8db3ee3338" />
 
+--> In-depth comparson of Client side rendering (CSR) & Server side rendering(SSR);
+
+<img width="786" height="219" alt="image" src="https://github.com/user-attachments/assets/8e086154-88e0-4520-97b5-47e6ea10bc2a" />
+<img width="861" height="369" alt="image" src="https://github.com/user-attachments/assets/c87c3180-407f-4d76-aa79-0a133488617d" />
+<img width="803" height="403" alt="image" src="https://github.com/user-attachments/assets/ccb5d0db-8f67-4230-8dc5-3082a0714f61" />
+<img width="833" height="487" alt="image" src="https://github.com/user-attachments/assets/2fdb6a67-5935-4b4a-adc8-b1919ce952ef" />
+
+--> What problem SSR solves :
+
+<img width="823" height="468" alt="image" src="https://github.com/user-attachments/assets/5007a0a4-3008-457b-afad-f13c901e2a40" />
+<img width="825" height="317" alt="image" src="https://github.com/user-attachments/assets/952792e3-e3f7-47eb-936c-d73c05bd4d7b" />
+<img width="878" height="346" alt="image" src="https://github.com/user-attachments/assets/405880e3-c48b-43b4-9c20-7b3ed33d2373" />
+<img width="822" height="437" alt="image" src="https://github.com/user-attachments/assets/855367f1-498a-451d-96dd-fd6bdfd98723" />
+
+- How Real world Application works:-
+  <img width="712" height="503" alt="image" src="https://github.com/user-attachments/assets/bbddc17d-819d-4cd7-8742-442604cca7d0" />
+  <img width="767" height="395" alt="image" src="https://github.com/user-attachments/assets/343d0d33-3ebe-4a11-8227-dcbc0a6ca8aa" />
+  <img width="881" height="450" alt="image" src="https://github.com/user-attachments/assets/e959b3a6-8ed2-4b82-9230-3a094d37eddf" />
+  <img width="895" height="324" alt="image" src="https://github.com/user-attachments/assets/88f0645c-d6da-4eb9-85e9-9afeccfa6369" />
+
 
 
 

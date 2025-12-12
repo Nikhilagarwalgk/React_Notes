@@ -72,8 +72,20 @@ on start, start filling it with green color
  and at one time only three bars should be filling the bar
 one bar should take 2 sec to fill
 
-@ How to iterate through a number in react?
+
 @ What Client side Rendering (CSR), Server side rendering (SSR), Static side rendering ( SSR), React Server component (RSR)?
 
+-->
+<img width="823" height="405" alt="image" src="https://github.com/user-attachments/assets/96377e21-c9de-48c9-9560-feae0534b006" />
+<img width="771" height="248" alt="image" src="https://github.com/user-attachments/assets/810dcefd-f2f5-4070-af83-43e201d2722c" />
+
+@ How to find web vital for a production app? what to do achieve them?
+@ object declared as const can be edited
+@ React hook form and Formic, controlled & uncontrolled components
+@ how virtual DOM compared with Real DOM?
+@ Code spiltting
+@ How handle authentication react app, eg- login
+@ what side-efect in react, how to handle it?
+@ useState and useReducer? in detail
 
 

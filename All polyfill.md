@@ -93,6 +93,14 @@ Here, Concept of Hydration comes into picture.
 <img width="854" height="295" alt="image" src="https://github.com/user-attachments/assets/27a8df8d-9e31-4795-9be8-f79b52978de1" />
 <img width="889" height="517" alt="image" src="https://github.com/user-attachments/assets/cd88ec11-cab1-45bf-9482-97ccaca9b5ab" />
 
+--> Static Site Generation(SSG):-
+
+<img width="616" height="510" alt="image" src="https://github.com/user-attachments/assets/665f62be-3f7e-4b7f-ac09-7f159ee27451" />
+<img width="587" height="223" alt="image" src="https://github.com/user-attachments/assets/2ef69528-3680-49a4-904c-885752f81505" />
+<img width="616" height="487" alt="image" src="https://github.com/user-attachments/assets/0e84535b-ceaf-4ac6-91b2-c5bef046e364" />
+<img width="618" height="513" alt="image" src="https://github.com/user-attachments/assets/63d65586-c516-4081-8af2-bdb700b686e3" />
+<img width="616" height="415" alt="image" src="https://github.com/user-attachments/assets/935011d2-fe0c-4694-aacc-ed8db3ee3338" />
+
 
 
 

@@ -105,5 +105,6 @@ Here, Concept of Hydration comes into picture.
 @ How handle authentication react app, eg- login
 @ what side-efect in react, how to handle it?
 @ useState and useReducer? in detail
+@ if using a third party API for image etc, then how to add security for hackers?
 
 

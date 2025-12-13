@@ -59,7 +59,16 @@ Ploifill of reduce:-
 
 @ Currying Polifill:-
 
+-> This will work for sum(1)(2)(), but not for sum(1)(2,3)().
+
 <img width="1366" height="537" alt="image" src="https://github.com/user-attachments/assets/d98462e7-9e0d-4e3b-9cff-e727dd36d161" />
+
+One More polifill for Currying :-
+
+-> This will work for most:-
+
+<img width="1366" height="644" alt="image" src="https://github.com/user-attachments/assets/1d611993-7e08-4cc4-b4d2-b6efb78a8395" />
+
 
 @ Closure Polifill
 @ Promises and its attributes.

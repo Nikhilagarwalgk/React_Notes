@@ -1,7 +1,6 @@
 @ Polifill of filter, deep copy & shallow copy?
+
 @ Filter :-
--->// Online Javascript Editor for free
-// Write, Edit and Run your Javascript code using JS Online Compiler
 
 
 const users = [

@@ -147,12 +147,18 @@ Here, Concept of Hydration comes into picture.
 <img width="686" height="247" alt="image" src="https://github.com/user-attachments/assets/2320884c-c2ec-4208-9610-bf568a1ae16e" />
 <img width="943" height="416" alt="image" src="https://github.com/user-attachments/assets/1f54277f-d10d-4355-8e2f-97b054e30f2f" />
 
+@ what side-efect in react, how to handle it?
 
+--->
+<img width="904" height="216" alt="image" src="https://github.com/user-attachments/assets/8781848f-ab31-4c8c-b457-e3adc5a358c4" />
+<img width="951" height="363" alt="image" src="https://github.com/user-attachments/assets/45643e00-62fc-4607-96e2-e9f6f243e45f" />
+
+@ useState and useReducer? in detail
+-->
+
+@ if using a third party API for image etc, then how to add security for hackers?
 @ how virtual DOM compared with Real DOM?
 @ Code spiltting
 @ How handle authentication react app, eg- login
-@ what side-efect in react, how to handle it?
-@ useState and useReducer? in detail
-@ if using a third party API for image etc, then how to add security for hackers?
 
 

@@ -38,6 +38,11 @@ for(let i=0; i< data.length; i++){
 3. For Reducer:-
 See from a video lecture.
 We can anything as argument as callback or condition.
+How to use Reduxe:-
+
+<img width="847" height="435" alt="image" src="https://github.com/user-attachments/assets/626d674c-9a0e-4f11-b152-27f5a4f057d2" />
+<img width="881" height="417" alt="image" src="https://github.com/user-attachments/assets/91666a9c-12c6-443b-846a-6c8b5be4a5a9" />
+
 
 @React Polifill:-
 1. useState:-
@@ -121,6 +126,9 @@ Here, Concept of Hydration comes into picture.
   <img width="881" height="450" alt="image" src="https://github.com/user-attachments/assets/e959b3a6-8ed2-4b82-9230-3a094d37eddf" />
   <img width="895" height="324" alt="image" src="https://github.com/user-attachments/assets/88f0645c-d6da-4eb9-85e9-9afeccfa6369" />
 
+@Pseudo Classes & Pseud Elemets:-
+<img width="946" height="322" alt="image" src="https://github.com/user-attachments/assets/d2258f64-715d-48f2-8b5e-62e004998e17" />
+<img width="946" height="436" alt="image" src="https://github.com/user-attachments/assets/c65c2ada-cdc0-445d-977c-cdb279085d98" />
 
 
 

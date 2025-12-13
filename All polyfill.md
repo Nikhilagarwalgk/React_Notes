@@ -42,6 +42,12 @@ How to use Reduxe:-
 <img width="847" height="435" alt="image" src="https://github.com/user-attachments/assets/626d674c-9a0e-4f11-b152-27f5a4f057d2" />
 <img width="881" height="417" alt="image" src="https://github.com/user-attachments/assets/91666a9c-12c6-443b-846a-6c8b5be4a5a9" />
 
+Ploifill of reduce:-
+
+<img width="1358" height="488" alt="image" src="https://github.com/user-attachments/assets/e5facd9e-01e2-41f1-99cd-96ef36578f49" />
+<img width="883" height="460" alt="image" src="https://github.com/user-attachments/assets/c59aba00-1d31-4afd-b1ee-d90e7a1e9a3b" />
+
+
 
 @React Polifill:-
 1. useState:-
@@ -129,12 +135,19 @@ Here, Concept of Hydration comes into picture.
 <img width="946" height="322" alt="image" src="https://github.com/user-attachments/assets/d2258f64-715d-48f2-8b5e-62e004998e17" />
 <img width="946" height="436" alt="image" src="https://github.com/user-attachments/assets/c65c2ada-cdc0-445d-977c-cdb279085d98" />
 
-
-
-
 @ How to find web vital for a production app? what to do achieve them?
-@ object declared as const can be edited
-@ React hook form and Formic, controlled & uncontrolled components
+
+@ object declared as const can be edited?
+
+--> Yes, new object cannot be assigned but present object key value can be changed or deleted or added, same with array as well.
+
+@ React hook form and Formic, controlled & uncontrolled components?
+
+--> 
+<img width="686" height="247" alt="image" src="https://github.com/user-attachments/assets/2320884c-c2ec-4208-9610-bf568a1ae16e" />
+<img width="943" height="416" alt="image" src="https://github.com/user-attachments/assets/1f54277f-d10d-4355-8e2f-97b054e30f2f" />
+
+
 @ how virtual DOM compared with Real DOM?
 @ Code spiltting
 @ How handle authentication react app, eg- login

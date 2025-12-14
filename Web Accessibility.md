@@ -38,3 +38,34 @@
 <img width="851" height="361" alt="image" src="https://github.com/user-attachments/assets/e2724dc2-22d9-43d1-ad49-b49d153c63dd" />
 <img width="732" height="374" alt="image" src="https://github.com/user-attachments/assets/dd984991-ed18-475e-a889-d123b65b8307" />
 
+@ What are minimum contrast ratio?
+
+<img width="801" height="360" alt="image" src="https://github.com/user-attachments/assets/12c4d22a-51db-4269-ae38-d167b4c66ed4" />
+<img width="732" height="510" alt="image" src="https://github.com/user-attachments/assets/70a4c23b-7f4a-4548-92dc-84bddd39ebbb" />
+<img width="838" height="491" alt="image" src="https://github.com/user-attachments/assets/aa0a5f29-1d5c-4a6a-b5ea-1dff8b19b903" />
+<img width="765" height="397" alt="image" src="https://github.com/user-attachments/assets/5e96e531-415c-4472-b7fe-741893ee3b7f" />
+<img width="858" height="327" alt="image" src="https://github.com/user-attachments/assets/9cc51618-1806-4c3d-8c7e-6be80458ea88" />
+
+@ what is A, AA, AAA?
+
+
+@ Tools to check Accessbility of a web page?
+
+-->
+1. axe DevTools a browser extension.
+2. WAVE (Web Accessibility Evaluation Tool)
+3. Accessibility Insights for Web (Microsoft)
+4. Lighthouse in chrome
+
+5. <img width="901" height="352" alt="image" src="https://github.com/user-attachments/assets/8da65a2e-7f78-4c9a-aca1-29dc5f37bf7a" />
+6. <img width="974" height="460" alt="image" src="https://github.com/user-attachments/assets/d4e14137-0bca-42e6-b68f-5b3671199602" />
+<img width="814" height="460" alt="image" src="https://github.com/user-attachments/assets/2302ee91-fb52-4465-bee9-bb5800243361" />
+<img width="831" height="455" alt="image" src="https://github.com/user-attachments/assets/5a31ada5-b07c-4ee4-aa2d-76d69d4e2533" />
+<img width="928" height="362" alt="image" src="https://github.com/user-attachments/assets/54fce79e-b3b3-440e-90cf-d055ec2c33f9" />
+<img width="922" height="407" alt="image" src="https://github.com/user-attachments/assets/0b6cc998-061d-4bad-80f9-10407c4af375" />
+
+
+
+
+
+

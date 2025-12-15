@@ -48,6 +48,13 @@
 
 @ what is A, AA, AAA?
 
+<img width="688" height="527" alt="image" src="https://github.com/user-attachments/assets/847b8fd3-2507-4890-969e-e83a3da69f85" />
+<img width="704" height="496" alt="image" src="https://github.com/user-attachments/assets/f0a9810b-49d8-4e55-bf6a-cee5a47008ca" />
+<img width="694" height="467" alt="image" src="https://github.com/user-attachments/assets/9f12dc0f-25de-4b2e-99b6-3ada75ca20a2" />
+<img width="702" height="492" alt="image" src="https://github.com/user-attachments/assets/38545af8-967c-4896-b7ee-1d7c6daa93ef" />
+<img width="690" height="475" alt="image" src="https://github.com/user-attachments/assets/2ea27a57-8527-41a3-acc2-dd14ced1e044" />
+
+
 
 @ Tools to check Accessbility of a web page?
 

@@ -95,3 +95,4 @@ When it comes to in-line CSS then React comes into picture,
 
 
 @ what is CSS, SCSS, LESS etc ?
+@ what is FOUT, FOIT ?

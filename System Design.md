@@ -39,6 +39,8 @@ Its a loading component when the data is loaded. We use Shimmer UI instead of lo
 <img width="974" height="215" alt="image" src="https://github.com/user-attachments/assets/cb3fbffa-e31f-4b9c-8398-4c8f4106c2e0" />
 <img width="720" height="496" alt="image" src="https://github.com/user-attachments/assets/e3b85107-da42-407d-b768-f3410c6545e8" />
 <img width="756" height="240" alt="image" src="https://github.com/user-attachments/assets/8a7b95f7-19e6-4335-ae9b-e222116b1d8c" />
+<img width="593" height="420" alt="image" src="https://github.com/user-attachments/assets/c6fffa8b-f048-42c3-810a-f7e3fbdb6671" />
+<img width="925" height="275" alt="image" src="https://github.com/user-attachments/assets/d45206dd-cbd7-4d92-81d4-0a95dde8c4ad" />
 
 
 

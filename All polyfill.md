@@ -171,3 +171,40 @@ Here, Concept of Hydration comes into picture.
 @ How handle authentication react app, eg- login
 
 
+@ Promise Utility Methods?
+
+-->
+<img width="756" height="338" alt="image" src="https://github.com/user-attachments/assets/4c7dfe8e-f4d3-437e-9ca5-fd720d3f3ed2" />
+<img width="858" height="464" alt="image" src="https://github.com/user-attachments/assets/8e0edf1b-caff-4780-9665-5fab4d1550e4" />
+<img width="849" height="287" alt="image" src="https://github.com/user-attachments/assets/872aa548-5dcf-4a6a-a3de-6ce06785bc27" />
+<img width="857" height="499" alt="image" src="https://github.com/user-attachments/assets/063efc9b-8adf-4ac3-95d3-7f792b379663" />
+<img width="836" height="246" alt="image" src="https://github.com/user-attachments/assets/3951c2a4-d47d-406e-9036-ef4b9bde9787" />
+<img width="868" height="387" alt="image" src="https://github.com/user-attachments/assets/6e49f959-9401-4df5-b614-87044e03090f" />
+<img width="863" height="283" alt="image" src="https://github.com/user-attachments/assets/30507eff-d379-4987-bf8c-a20326216be6" />
+<img width="864" height="466" alt="image" src="https://github.com/user-attachments/assets/13789554-f5d7-4545-8741-701032538eef" />
+<img width="905" height="378" alt="image" src="https://github.com/user-attachments/assets/25106bf2-7f24-4a49-9ea4-f19d1838d32b" />
+<img width="853" height="223" alt="image" src="https://github.com/user-attachments/assets/b7613995-5c37-44ab-9ad9-67e80d03adcf" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

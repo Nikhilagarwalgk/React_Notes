@@ -168,6 +168,12 @@ A Service Worker is a proxy that sits between your web app and the network. It e
 <img width="826" height="168" alt="image" src="https://github.com/user-attachments/assets/8e35f3d8-d291-43de-9200-50d989de3622" />
 <img width="873" height="415" alt="image" src="https://github.com/user-attachments/assets/ab906e55-f5a5-41b6-8d48-539acd583008" />
 
+@ Only get 5 data when there are 100s of data from a API from frontend?
+<img width="580" height="303" alt="image" src="https://github.com/user-attachments/assets/f014b829-c999-4603-8726-138ae6ee3ce6" />
+
+Using ?_limit we can do this.
+<img width="554" height="247" alt="image" src="https://github.com/user-attachments/assets/b90864b6-a1b2-44c1-845f-2d31bb613445" />
+
 
 
 

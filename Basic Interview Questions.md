@@ -174,6 +174,14 @@ A Service Worker is a proxy that sits between your web app and the network. It e
 Using ?_limit we can do this.
 <img width="554" height="247" alt="image" src="https://github.com/user-attachments/assets/b90864b6-a1b2-44c1-845f-2d31bb613445" />
 
+@1. e.preevnt.default
+2. When we log on in flipkart/Amazon then close the browser, thenc comes back after 1 week how application verifies it, where it store the data and what data?
+
+@. Exposure to tools such as Jenkins, NewRelic, DataDog, PagerDuty, and Sentry
+@. Familiarity with REST APIs, performance profiling, and debugging tools.
+@. Experience with Next.js 14/15 Server Components, and hybrid rendering models.
+@. Familiarity with image optimisation, CDN caching, and Web Vitals performance metrics.
+@. WebSocket architecture with React
 
 
 

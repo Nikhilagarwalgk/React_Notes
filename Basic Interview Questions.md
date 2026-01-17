@@ -183,6 +183,7 @@ Using ?_limit we can do this.
 @. Familiarity with image optimisation, CDN caching, and Web Vitals performance metrics.
 @. WebSocket architecture with React
 
+<img width="562" height="534" alt="Screenshot 2025-11-24 102034" src="https://github.com/user-attachments/assets/815c120f-ca84-44dc-bdb3-058eb9b15529" />
 
 
 

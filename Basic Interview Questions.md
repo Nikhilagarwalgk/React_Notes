@@ -185,6 +185,17 @@ Using ?_limit we can do this.
 
 <img width="562" height="534" alt="Screenshot 2025-11-24 102034" src="https://github.com/user-attachments/assets/815c120f-ca84-44dc-bdb3-058eb9b15529" />
 
+<img width="577" height="307" alt="Screenshot 2025-11-24 102053" src="https://github.com/user-attachments/assets/02451662-a476-485e-91de-08a364873b88" />
+<img width="689" height="490" alt="Screenshot 2025-11-27 114130" src="https://github.com/user-attachments/assets/73548070-8c84-46fc-bacf-d45b752ec33a" />
+<img width="635" height="467" alt="Screenshot 2025-12-23 122502" src="https://github.com/user-attachments/assets/1e781f23-9a5a-4a3d-9672-b914ce28769c" />
+<img width="731" height="446" alt="Screenshot 2026-01-07 115020" src="https://github.com/user-attachments/assets/1a11b94f-d4eb-4c98-bd46-3ee5880c2937" />
+<img width="705" height="94" alt="Screenshot 2026-01-08 121651" src="https://github.com/user-attachments/assets/b17f0e53-4760-456f-8d4f-4464c218db7a" />
+
+
+
+
+
+
 
 
 
